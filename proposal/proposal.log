@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.20)  9 OCT 2023 16:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.20)  9 OCT 2023 16:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -432,30 +432,13 @@ Package hyperref Info: Link coloring ON on input line 21.
 
  [1
 
-{C:/Users/carol/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Runaway argument?
-]{iii}, which has regularly offered thorough information on catastrop\ETC.
-! Paragraph ended before \@citex was complete.
-<to be read again> 
-                   \par 
-l.64 
-     
-? 
-Runaway argument?
-]{iii}and Aon's 2023 Weather, Climate, and Catastrophe Insight Report\ETC.
-! Paragraph ended before \@citex was complete.
-<to be read again> 
-                   \par 
-l.70 
-     
-? 
-
+{C:/Users/carol/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
 Overfull \hbox (11.87122pt too wide) in paragraph at lines 97--103
  []\OT1/cmr/bx/n/12 Conclusion[] \OT1/cmr/m/n/12 In con-clu-sion, our study pro
 -posal de-scribes a thor-ough and multi-methodological
  []
 
-[2] (proposal.bbl) [3] (proposal.aux)
+(proposal.bbl) [3] (proposal.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
@@ -464,10 +447,10 @@ Package rerunfilecheck Info: File `proposal.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10524 strings out of 475503
- 167103 string characters out of 5761834
+ 10532 strings out of 475503
+ 167185 string characters out of 5761834
  1927248 words of memory out of 5000000
- 31656 multiletter control sequences out of 15000+600000
+ 31662 multiletter control sequences out of 15000+600000
  561290 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,6n,93p,268b,437s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -476,9 +459,9 @@ cmbx12.pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmr12.pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmr17.pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmti12.pfb>
-Output written on proposal.pdf (3 pages, 69723 bytes).
+Output written on proposal.pdf (3 pages, 73112 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
+ 62 PDF objects out of 1000 (max. 8388607)
+ 14 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

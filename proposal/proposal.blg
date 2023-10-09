@@ -5,44 +5,56 @@ Reallocating 'name_of_file' (item size: 1) to 17 items.
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: chicago.bst
 Database file #1: ../proposal/refs.bib
-You've used 1 entry,
+Warning--no key, author in aon
+Warning--no author, editor, or organization in aon
+Warning--to sort, need author or key in aon
+Warning--no key, author in aon
+Warning--no author, editor, or organization in aon
+Warning--no key, author in aon
+Warning--no author, editor, or organization in aon
+Warning--no key, author in aon
+Warning--no author, editor, or organization in aon
+Warning--empty year in aon
+Warning--empty year in iii
+You've used 3 entries,
             2861 wiz_defined-function locations,
-            619 strings with 5122 characters,
-and the built_in function-call counts, 1098 in all, are:
-= -- 73
-> -- 129
+            624 strings with 5199 characters,
+and the built_in function-call counts, 1910 in all, are:
+= -- 142
+> -- 155
 < -- 0
-+ -- 42
-- -- 42
-* -- 126
-:= -- 211
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 12
-chr.to.int$ -- 1
-cite$ -- 1
-duplicate$ -- 18
-empty$ -- 43
-format.name$ -- 46
-if$ -- 196
++ -- 48
+- -- 52
+* -- 186
+:= -- 330
+add.period$ -- 6
+call.type$ -- 3
+change.case$ -- 22
+chr.to.int$ -- 3
+cite$ -- 18
+duplicate$ -- 49
+empty$ -- 117
+format.name$ -- 56
+if$ -- 349
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 1
-newline$ -- 8
-num.names$ -- 10
-pop$ -- 9
+newline$ -- 15
+num.names$ -- 20
+pop$ -- 38
 preamble$ -- 1
-purify$ -- 18
+purify$ -- 41
 quote$ -- 0
-skip$ -- 18
+skip$ -- 37
 stack$ -- 0
-substring$ -- 39
-swap$ -- 6
+substring$ -- 83
+swap$ -- 16
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 20
-warning$ -- 0
-while$ -- 8
+type$ -- 60
+warning$ -- 11
+while$ -- 18
 width$ -- 0
-write$ -- 15
+write$ -- 32
+(There were 11 warnings)
