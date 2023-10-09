@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.20)  9 OCT 2023 00:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.20)  9 OCT 2023 16:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./proposal/proposal.tex
-(proposal/proposal.tex
+**./proposal.tex
+(proposal.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
 (C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -165,6 +165,11 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibsep=\skip54
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count278
+)
+(C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
 )
 (C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
 (C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
@@ -334,24 +339,24 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 ) (proposal.aux)
 \openout1 = `proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -420,42 +425,37 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
 (C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 )
-Package hyperref Info: Link coloring ON on input line 20.
+Package hyperref Info: Link coloring ON on input line 21.
  (proposal.out) (proposal.out)
 \@outlinefile=\write3
 \openout3 = `proposal.out'.
 
-
-
-Package natbib Warning: Citation `kraehnert2021' on page 1 undefined on input l
-ine 29.
-
-[1
+ [1
 
 {C:/Users/carol/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Runaway argument?
+]{iii}, which has regularly offered thorough information on catastrop\ETC.
+! Paragraph ended before \@citex was complete.
+<to be read again> 
+                   \par 
+l.64 
+     
+? 
+Runaway argument?
+]{iii}and Aon's 2023 Weather, Climate, and Catastrophe Insight Report\ETC.
+! Paragraph ended before \@citex was complete.
+<to be read again> 
+                   \par 
+l.70 
+     
+? 
 
-Package natbib Warning: Citation `iii' on page 2 undefined on input line 52.
-
-
-Package natbib Warning: Citation `aon' on page 2 undefined on input line 53.
-
-
-Package natbib Warning: Citation `iii' on page 2 undefined on input line 66.
-
-
-Package natbib Warning: Citation `aon' on page 2 undefined on input line 67.
-
-[2]
-Overfull \hbox (11.87122pt too wide) in paragraph at lines 96--102
+Overfull \hbox (11.87122pt too wide) in paragraph at lines 97--103
  []\OT1/cmr/bx/n/12 Conclusion[] \OT1/cmr/m/n/12 In con-clu-sion, our study pro
 -posal de-scribes a thor-ough and multi-methodological
  []
 
-No file proposal.bbl.
-
-Package natbib Warning: There were undefined citations.
-
-[3] (proposal.aux)
+[2] (proposal.bbl) [3] (proposal.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
@@ -464,20 +464,21 @@ Package rerunfilecheck Info: File `proposal.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10420 strings out of 475503
- 165401 string characters out of 5761834
+ 10524 strings out of 475503
+ 167103 string characters out of 5761834
  1927248 words of memory out of 5000000
- 31559 multiletter control sequences out of 15000+600000
- 560337 words of font info for 44 fonts, out of 8000000 for 9000
+ 31656 multiletter control sequences out of 15000+600000
+ 561290 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,6n,93p,277b,437s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,6n,93p,268b,437s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmr12.pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmr17.pfb>
-Output written on proposal.pdf (3 pages, 57253 bytes).
+blic/amsfonts/cm/cmr17.pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmti12.pfb>
+Output written on proposal.pdf (3 pages, 69723 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
+ 51 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
