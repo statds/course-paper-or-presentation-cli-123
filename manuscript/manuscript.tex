@@ -58,9 +58,9 @@ strategies that can reduce the financial burden of homeowners in the face of the
 
 
 This research has used several methods, including statistical analysis and data science methods. To achieve our goals, we will draw 
-data from reliable sources, such as the Insurance Information Agency and Aon's 2023 Weather, Climate and Disaster Investigation Report. 
-This study is not only timely but critically important at a time of increasing weather-related risks, with the goal of contributing to 
-homeowner well-being and the stability of the property insurance market
+data from reliable sources, such as the Insurance Information Agency, National Centers for Environmental Informations, and Aon's 2023 
+Weather, Climate and Disaster Investigation Report. This study is not only timely but critically important at a time of increasing 
+weather-related risks, with the goal of contributing to homeowner well-being and the stability of the property insurance market.
 
 The rest of the paper is organized as follows.
 The data will be presented in Section~\ref{sec:data}.
@@ -71,6 +71,135 @@ A discussion concludes in Section~\ref{sec:disc}.
 
 \section{Data}
 \label{sec:data}
+To comprehend the impact of weather-related catastrophic events on property insurance pricing, we will begin by examining a dataset of 
+billion-dollar disasters. This dataset provides crucial information on event frequency, financial cost, and other key parameters. Our 
+data sources include the National Centers for Environmental Information (NCEI)\cite{ncei}, the Insurance Information Institute 
+(III)\cite{iii}, Aon\cite{aon} and the National Association of Insurance Commissioners (NAIC)\cite{naic}, all are recognized for their 
+reliability in documenting catastrophic events and their associated economic and insured losses.
+
+Our primary dataset, obtained from the National Centers for Environmental Information (NCEI)\cite{ncei}, spans the years from 1980 to 
+2023. We have organized the data into various temporal segments to facilitate analysis. Table \ref{tab:bil_dol_disasters} 
+summarizes key statistics from this dataset, offering insights into the frequency of catastrophic events, total financial cost, and 
+associated fatalities. These temporal segments, ranging from the 1980s to the present day, enable us to assess trends over time and 
+identify potential patterns.
+
+\begin{table}[h]
+  \label{tab:bil_dol_disasters} 
+    \centering
+    \begin{tabular}{|l|c|c|c|c|c|c|c|c|}
+    \hline
+    Time Period & Billion-Dollar Disasters & Events/Year & Cost & Percent of Total Cost & Cost/Year & Deaths & Deaths/Year \\
+    \hline
+    1980s (1980-1989) & 33 & 3.3 & \$213.6B & 8.1\% & \$21.4B & 2,994 & 299 \\
+    1990s (1990-1999) & 57 & 5.7 & \$326.8B & 12.4\% & \$32.7B & 3,075 & 308 \\
+    2000s (2000-2009) & 67 & 6.7 & \$604.2B & 22.9\% & \$60.4B & 3,102 & 310 \\
+    2010s (2010-2019) & 131 & 13.1 & \$967.4B & 36.7\% & \$96.7B & 5,227 & 523 \\
+    Last 5 Years (2018-2022) & 90 & 18.0 & \$623.0B & 23.6\% & \$124.6B & 1,751 & 350 \\
+    Last 3 Years (2020-2022) & 60 & 20.0 & \$456.0B & 17.3\% & \$152.0B & 1,460 & 487 \\
+    Last Year (2022) & 18 & 18.0 & \$178.8B & 6.8\% & \$178.8B & 474 & 474 \\
+    All Years (1980-2023)* & 372 & 8.5 & \$2,635.1B & 100.0\% & \$59.9B & 16,231 & 369 \\
+    \hline
+    \end{tabular}
+    \caption{NEIC: Billion-Dollar Disasters Data}
+    \cite{ncei}
+\end{table}
+
+To further examine the financial implications of natural disasters, we turn to the Insurance Information Institute (III)\cite{iii}. 
+Table \ref{tab:natural_cat_losses} for the year 2022 provides a breakdown of catastrophic events by peril, including data on the 
+number of events, fatalities, economic losses, and insured losses. This granular information is essential for understanding the 
+varying impacts of different types of natural catastrophes and their associated costs.
+
+\begin{table}[h]
+  \label{tab:natural_cat_losses}
+    \centering
+    \caption{Natural Catastrophe Losses in the United States by Peril, 2022 (in \textdollar{} millions)}
+    \begin{tabular}{|l|c|c|c|c|}
+    \hline
+    Peril & Number of Events & Fatalities & Economic Losses (2) & Insured Losses (3) \\
+    \hline
+    Tropical Cyclone & 3 & 157 & \textdollar 96,097 & \textdollar 53,203 \\
+    Severe Convective Storm & 62 & 49 & \textdollar 37,232 & \textdollar 29,306 \\
+    Wildfire, Drought, Heatwave & 26 & 65 & \textdollar 18,093 & \textdollar 8,902 \\
+    Winter Storm & 13 & 123 & \textdollar 6,223 & \textdollar 4,128 \\
+    Flooding & 15 & 72 & \textdollar 7,234 & \textdollar 3,346 \\
+    Total & 119 & $\sim$466 & \textdollar 164,879 & \textdollar 98,885 \\
+    \hline
+    \end{tabular}    
+    \cite{iii}
+\end{table}
+
+The Insurance Information Institute (III) \cite{iii} also supplies data on insured property losses in the United States for the years 
+2013-2022. Table \ref{tab:insured_prop_losses} presents both the nominal loss values when the events occurred and their equivalent 
+values in 2022 dollars. Analyzing this information will allow us to assess how insured losses have evolved over the past decade.
+
+
+\begin{table}[h]
+  \label{tab:insured_prop_losses}
+    \centering
+    \caption{Estimated Insured Property Losses, U.S. Natural Catastrophes, 2013-2022 (in \textdollar billions)}
+    \begin{tabular}{|c|c|c|}
+    \hline
+    Year & In dollars when occurred & In 2022 dollars (2) \\
+    \hline
+    2013 & \textdollar 24.1 & \textdollar 31.0 \\
+    2014 & \textdollar 23.2 & \textdollar 29.2 \\
+    2015 & \textdollar 22.9 & \textdollar 28.8 \\
+    2016 & \textdollar 31.6 & \textdollar 39.3 \\
+    2017 & \textdollar 130.9 & \textdollar 158.7 \\
+    2018 & \textdollar 60.4 & \textdollar 71.6 \\
+    2019 & \textdollar 38.8 & \textdollar 45.2 \\
+    2020 & \textdollar 81.0 & \textdollar 93.3 \\
+    2021 & \textdollar 93.3 & \textdollar 102.7 \\
+    2022 & \textdollar 98.8 & \textdollar 99.9 \\
+    \hline
+    \end{tabular}
+    \cite{iii}
+\end{table}    
+    
+        
+    
+\subsection{Key Equations}
+
+To better understand the relationships between weather catastrophes, property insurance, and financial impact, we introduce several 
+key equations that will guide our analysis:
+
+\begin{equation}
+    \label{eq:freq}
+    \text{Frequency} = \frac{\text{Number of Loss Events}}{\text{Exposure Units}}
+\end{equation}
+
+The frequency equation \ref{eq:freq} calculates the frequency of loss events by dividing the number of loss events by exposure units.
+
+\begin{equation}
+    \label{eq:sev}
+    \text{Severity} = \frac{\text{Total Loss Amount}}{\text{Number of Loss Events}}
+\end{equation}
+
+The severity equation \ref{eq:sev} is determined by dividing the total loss amount by the number of loss events.
+
+\begin{equation}
+    \label{eq:losscount}
+    \text{Loss Count} = \text{Frequency} \times \text{Exposure Units}
+\end{equation}
+
+The loss count equation \ref{eq:losscount} is the product of frequency and exposure units, providing insights into the overall loss count due to catastrophic events.
+
+\begin{equation}
+    \label{eq:premium}
+    \text{Premium} = \lambda \cdot \text{Severity} \cdot \text{Exposure Units}
+\end{equation}
+
+The premium equation \ref{eq:premium} calculates the estimated premium based on the frequency, severity, and exposure units. This 
+reflects the financial implications for homeowners and insurers.
+
+By having a strong grasp of these fundamental equations, we aim to build a comprehensive understanding of the intricate relationship 
+between weather-related catastrophes and property insurance pricing. These equations serve as the building blocks for our data 
+analysis, enabling us to effectively assess the impact of catastrophic events on property insurance and address our research 
+objectives.
+
+This comprehensive dataset, complemented by granular information from the Insurance Information Institute, forms the foundation for 
+our research. The various temporal segments, along with the key equations, provide the tools necessary to delve deeper into the 
+impact of weather-related disasters on property insurance, thereby enabling us to address our research objectives effectively.
 
 
 
