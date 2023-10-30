@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.20)  29 OCT 2023 23:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.20)  29 OCT 2023 23:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -166,12 +166,30 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count278
 )
+(C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
 (C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/dingbat\dingbat.sty
 Package: dingbat 2001/04/27 v1.00 Hands and other dingbats
-)
-(C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2023-07-08 v7.01b Hypertext links for LaTeX
 
+
+! LaTeX Error: Command \checkmark already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 \newcommand{\checkmark}{\dingbat@sym{'104}}
+                                                
+? 
+) (C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-07-08 v7.01b Hypertext links for LaTeX
 (C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
@@ -323,24 +341,24 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 ) (manuscript.aux)
 \openout1 = `manuscript.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -409,40 +427,52 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
 (C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 )
-Package hyperref Info: Link coloring ON on input line 22.
+Package hyperref Info: Link coloring ON on input line 23.
  (manuscript.out) (manuscript.out)
 \@outlinefile=\write3
 \openout3 = `manuscript.out'.
 
- [1
+LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
+
+
+(C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
+
+
+(C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+[1
 
 {C:/Users/carol/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
 Package natbib Warning: Citation `hurricaneco' on page 2 undefined on input lin
-e 57.
+e 58.
 
 
-Package natbib Warning: Citation `ncei' on page 2 undefined on input line 78.
+Package natbib Warning: Citation `ncei' on page 2 undefined on input line 79.
 
 
-Package natbib Warning: Citation `iii' on page 2 undefined on input line 79.
+Package natbib Warning: Citation `iii' on page 2 undefined on input line 80.
 
 
-Package natbib Warning: Citation `aon' on page 2 undefined on input line 79.
+Package natbib Warning: Citation `aon' on page 2 undefined on input line 80.
 
 
-Package natbib Warning: Citation `naic' on page 2 undefined on input line 79.
+Package natbib Warning: Citation `naic' on page 2 undefined on input line 80.
 
 
-Package natbib Warning: Citation `ncei' on page 2 undefined on input line 82.
+Package natbib Warning: Citation `ncei' on page 2 undefined on input line 83.
 
 
-Overfull \hbox (252.70535pt too wide) in paragraph at lines 91--105
+Overfull \hbox (252.70535pt too wide) in paragraph at lines 92--106
  [][] 
  []
 
 
-Package natbib Warning: Citation `ncei' on page 2 undefined on input line 106.
+Package natbib Warning: Citation `ncei' on page 2 undefined on input line 107.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -450,27 +480,27 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <NCEI US disaster freq.pdf, id=50, 835.20026pt x 451.6875pt>
 File: NCEI US disaster freq.pdf Graphic file (type pdf)
 <use NCEI US disaster freq.pdf>
-Package pdftex.def Info: NCEI US disaster freq.pdf  used on input line 111.
+Package pdftex.def Info: NCEI US disaster freq.pdf  used on input line 112.
 (pdftex.def)             Requested size: 375.80544pt x 203.23682pt.
 
-Package natbib Warning: Citation `iii' on page 2 undefined on input line 116.
+Package natbib Warning: Citation `iii' on page 2 undefined on input line 117.
 
 
-Overfull \hbox (76.46506pt too wide) in paragraph at lines 124--136
+Overfull \hbox (76.46506pt too wide) in paragraph at lines 125--137
  [][] 
  []
 
 
-Package natbib Warning: Citation `iii' on page 2 undefined on input line 137.
+Package natbib Warning: Citation `iii' on page 2 undefined on input line 138.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package natbib Warning: Citation `iii' on page 2 undefined on input line 140.
+Package natbib Warning: Citation `iii' on page 2 undefined on input line 141.
 
 
-Package natbib Warning: Citation `iii' on page 2 undefined on input line 165.
+Package natbib Warning: Citation `iii' on page 2 undefined on input line 166.
 
 [2]
 
@@ -483,7 +513,7 @@ pdfTeX warning: pdflatex.exe (file ./NAIC HO threats.pdf): PDF inclusion: found
 <NAIC HO threats.pdf, id=59, 437.87589pt x 260.19208pt>
 File: NAIC HO threats.pdf Graphic file (type pdf)
 <use NAIC HO threats.pdf>
-Package pdftex.def Info: NAIC HO threats.pdf  used on input line 170.
+Package pdftex.def Info: NAIC HO threats.pdf  used on input line 171.
 (pdftex.def)             Requested size: 375.80544pt x 223.32408pt.
 
 
@@ -493,12 +523,12 @@ inclusion: found PDF version <1.6>, but at most version <1.5> allowed
 File: NAIC Property Threat by Regions.pdf Graphic file (type pdf)
 <use NAIC Property Threat by Regions.pdf>
 Package pdftex.def Info: NAIC Property Threat by Regions.pdf  used on input lin
-e 177.
+e 178.
 (pdftex.def)             Requested size: 375.80544pt x 145.80005pt.
 [3 <./NCEI US disaster freq.pdf>] [4] [5 <./NAIC HO threats.pdf> <./NAIC Proper
 ty Threat by Regions.pdf>]
 
-LaTeX Warning: File `premium_trend.pdf' not found on input line 283.
+LaTeX Warning: File `premium_trend.pdf' not found on input line 284.
 
 
 ! Package pdftex.def Error: File `premium_trend.pdf' not found: using draft set
@@ -508,86 +538,24 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.283 ...s[width=0.8\linewidth]{premium_trend.pdf}
+l.284 ...s[width=0.8\linewidth]{premium_trend.pdf}
                                                   
-? bibte
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, E to edit your file,
-1 or ... or 9 to ignore the next 1 to 9 tokens of input,
-H for help, X to quit.
-? 
-! Undefined control sequence.
-l.307           State FE & \Checkmark
-                                      & \Checkmark & \Checkmark \\
-? 
-! Undefined control sequence.
-l.307           State FE & \Checkmark & \Checkmark
-                                                   & \Checkmark \\
-? 
-! Undefined control sequence.
-l.307 ...FE & \Checkmark & \Checkmark & \Checkmark
-                                                   \\
-? 
-! Undefined control sequence.
-l.308           Year FE & \Checkmark
-                                     & \Checkmark & \Checkmark \\
-? 
-! Undefined control sequence.
-l.308           Year FE & \Checkmark & \Checkmark
-                                                  & \Checkmark \\
-? 
-! Undefined control sequence.
-l.308 ...FE & \Checkmark & \Checkmark & \Checkmark
-                                                   \\
-? 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-! Undefined control sequence.
-l.336         State FE & \Checkmark
-                                    & \Checkmark & \Checkmark & \Checkmark \\
-? 
-! Undefined control sequence.
-l.336         State FE & \Checkmark & \Checkmark
-                                                 & \Checkmark & \Checkmark \\
-? 
-! Undefined control sequence.
-l.336 ...FE & \Checkmark & \Checkmark & \Checkmark
-                                                   & \Checkmark \\
-? 
-! Undefined control sequence.
-l.336 ...rk & \Checkmark & \Checkmark & \Checkmark
-                                                   \\
-? 
-! Undefined control sequence.
-l.337         Year FE & \Checkmark
-                                   & \Checkmark & \Checkmark & \Checkmark \\
-? 
-! Undefined control sequence.
-l.337         Year FE & \Checkmark & \Checkmark
-                                                & \Checkmark & \Checkmark \\
-? 
-! Undefined control sequence.
-l.337 ...FE & \Checkmark & \Checkmark & \Checkmark
-                                                   & \Checkmark \\
-? 
-! Undefined control sequence.
-l.337 ...rk & \Checkmark & \Checkmark & \Checkmark
-                                                   \\
 ? 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package natbib Warning: Citation `aon' on page 6 undefined on input line 350.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package natbib Warning: Citation `aon' on page 6 undefined on input line 351.
 
 [6]
 
-Package natbib Warning: Citation `naic' on page 7 undefined on input line 359.
+Package natbib Warning: Citation `naic' on page 7 undefined on input line 360.
 
 
-Package natbib Warning: Citation `kousky' on page 7 undefined on input line 360
+Package natbib Warning: Citation `kousky' on page 7 undefined on input line 361
 .
 
 (manuscript.bbl)
@@ -603,11 +571,11 @@ Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: 364A9323D81EFBE7C1E357C9CF646B2D;840.
  ) 
 Here is how much of TeX's memory you used:
- 10174 strings out of 475503
- 158591 string characters out of 5761834
+ 10285 strings out of 475503
+ 160440 string characters out of 5761834
  1939248 words of memory out of 5000000
- 31290 multiletter control sequences out of 15000+600000
- 565476 words of font info for 62 fonts, out of 8000000 for 9000
+ 31387 multiletter control sequences out of 15000+600000
+ 567946 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,10n,79p,246b,507s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\carol\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
@@ -623,10 +591,11 @@ rol/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/U
 sers/carol/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmtt12.pfb>
-Output written on manuscript.pdf (8 pages, 344009 bytes).
+sfonts/cm/cmtt12.pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/symbols/msam10.pfb>
+Output written on manuscript.pdf (8 pages, 352677 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
+ 207 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)
  80 words of extra memory for PDF output out of 10000 (max. 10000000)
 
