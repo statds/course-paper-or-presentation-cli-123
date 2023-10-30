@@ -231,6 +231,93 @@ also used to test if effects differ across the premium distribution.
 
 \section{Results}
 \label{sec:resu}
+\subsection{Summary Statistics}
+Table 1 \ref{tab:summary} presents summary statistics for the premium and disaster data. The disaster measures show substantial variability, 
+highlighting the irregular nature of extremes. Hurricane and flooding perils account for the largest share of overall cost and 
+insured losses.
+
+\begin{table}[h]
+    \label{tab:summary}
+      \centering
+      \begin{tabular}{|l|c|c|c|}
+          \hline
+          & Mean & SD & Range \\
+          \hline
+          Premium & \textdollar 832 & \textdollar 196 & \textdollar 444 - \textdollar 1,832 \\
+          Number of Disasters & 1.90 & 2.05 & 0 - 13 \\
+          Total Cost (\textdollar) & 3.04B & 8.60B & 0 - 65.0B \\
+          Insured Losses (\textdollar) & 1.35B & 5.03B & 0 - 37.3B \\
+          \hline
+      \end{tabular}
+      \caption{Summary Statistics}
+  \end{table}
+
+Figure 1 \ref{fig:premium_trend} shows the upward national trend in average homeowners premiums, along with key major hurricanes. Premium growth accelerated 
+starting in the mid-2000s, corresponding with damaging hurricane seasons.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\linewidth]{premium_trend.pdf}
+    \caption{Average Homeowners Insurance Premiums and Major Hurricanes}
+    \label{fig:premium_trend}
+\end{figure}
+
+\subsection{Regression Results}
+Table 2 \ref{tab:reg_results} presents results from the panel regressions. The number of disasters and total cost are significantly associated with 
+higher premiums based on the log-log specification. A 10\% increase in disasters corresponds to a 0.6\% rise in premiums. Meanwhile, 
+a 10\% rise in total damage leads to a 0.04\% premium increase.
+
+\begin{table}[h]
+    \label{tab:reg_results}
+      \centering
+      \begin{tabular}{|l|c|c|c|}
+          \hline
+          & (1) & (2) & (3) \\
+          \hline
+          Log(Number Disasters) & 0.062$^*$ & & \\
+          & (0.018) & & \\
+          Log(Total Cost) & & 0.004$^*$ & 0.005$^*$ \\
+          & & (0.002) & (0.002) \\
+          Log(Insured Loss) & & & 0.002 \\
+          & & & (0.003) \\
+          \hline
+          State FE & \checkmark & \checkmark & \checkmark \\
+          Year FE & \checkmark & \checkmark & \checkmark \\
+          Observations & 756 & 756 & 756 \\
+          $R^2$ & 0.936 & 0.935 & 0.935 \\
+          \hline
+      \end{tabular}
+      \caption{Disaster Effects on Homeowners Premiums}
+  \end{table}
+
+The results by peril type in Table 3 \ref{tab:reg_peril} show hurricane and flood disasters have the most significant effects. A 10\% increase in 
+hurricane or flood damage correlates with around a 0.01\% rise in premiums. Severe storms and winter weather also show positive 
+effects. Wildfires and earthquakes appear less influential, likely due to their more limited geographic footprints.
+
+\begin{table}[h]
+  \label{tab:reg_peril}
+    \centering
+    \begin{tabular}{|l|c|c|c|c|}
+        \hline
+        & (1) & (2) & (3) & (4) \\
+        \hline
+        Log(Hurricane Cost) & 0.010$^*$ & & & \\
+        & (0.003) & & & \\
+        Log(Flood Cost) & & 0.013$^*$ & & \\
+        & & (0.004) & & \\
+        Log(Severe Storm Cost) & & & 0.006$^*$ & \\
+        & & & (0.003) & \\
+        Log(Winter Cost) & & & & 0.011$^{**}$ \\
+        & & & & (0.005) \\
+        \hline
+        State FE & \checkmark & \checkmark & \checkmark & \checkmark \\
+        Year FE & \checkmark & \checkmark & \checkmark & \checkmark \\
+        Observations & 756 & 756 & 756 & 756 \\
+        $R^2$ & 0.935 & 0.935 & 0.935 & 0.935 \\
+        \hline
+    \end{tabular}
+    \caption{Disaster Effects by Peril}
+\end{table}
 
 
 
