@@ -74,7 +74,7 @@ A discussion concludes in Section~\ref{sec:disc}.
 To comprehend the impact of weather-related catastrophic events on property insurance pricing, we will begin by examining a dataset of 
 billion-dollar disasters. This dataset provides crucial information on event frequency, financial cost, and other key parameters. Our 
 data sources include the National Centers for Environmental Information (NCEI)\cite{ncei}, the Insurance Information Institute 
-(III)\cite{iii}, Aon\cite{aon} and the National Association of Insurance Commissioners (NAIC)\cite{naic}, all are recognized for their 
+(III)\cite{iii}, Aon\cite{aon} and the National Association of Insurance Commissioners (NAIC)\cite{naic21}, all are recognized for their 
 reliability in documenting catastrophic events and their associated economic and insured losses.
 
 Our primary dataset, obtained from the National Centers for Environmental Information (NCEI)\cite{ncei}, spans the years from 1980 to 
@@ -87,18 +87,18 @@ identify potential patterns.
   \label{tab:bil_dol_disasters} 
     \centering
     \begin{tabular}{|l|c|c|c|c|c|c|c|c|}
-    \hline
-    Time Period & Billion-Dollar Disasters & Events/Year & Cost & Percent of Total Cost & Cost/Year & Deaths & Deaths/Year \\
-    \hline
-    1980s (1980-1989) & 33 & 3.3 & \$213.6B & 8.1\% & \$21.4B & 2,994 & 299 \\
-    1990s (1990-1999) & 57 & 5.7 & \$326.8B & 12.4\% & \$32.7B & 3,075 & 308 \\
-    2000s (2000-2009) & 67 & 6.7 & \$604.2B & 22.9\% & \$60.4B & 3,102 & 310 \\
-    2010s (2010-2019) & 131 & 13.1 & \$967.4B & 36.7\% & \$96.7B & 5,227 & 523 \\
-    Last 5 Years (2018-2022) & 90 & 18.0 & \$623.0B & 23.6\% & \$124.6B & 1,751 & 350 \\
-    Last 3 Years (2020-2022) & 60 & 20.0 & \$456.0B & 17.3\% & \$152.0B & 1,460 & 487 \\
-    Last Year (2022) & 18 & 18.0 & \$178.8B & 6.8\% & \$178.8B & 474 & 474 \\
-    All Years (1980-2023)* & 372 & 8.5 & \$2,635.1B & 100.0\% & \$59.9B & 16,231 & 369 \\
-    \hline
+        \hline
+        Time Period & Billion-Dollar Disasters & Events/Year & Cost & Percent of Total Cost & Cost/Year & Deaths & Deaths/Year \\
+        \hline
+        1980s (1980-1989) & 33 & 3.3 & \$213.6B & 8.1\% & \$21.4B & 2,994 & 299 \\
+        1990s (1990-1999) & 57 & 5.7 & \$326.8B & 12.4\% & \$32.7B & 3,075 & 308 \\
+        2000s (2000-2009) & 67 & 6.7 & \$604.2B & 22.9\% & \$60.4B & 3,102 & 310 \\
+        2010s (2010-2019) & 131 & 13.1 & \$967.4B & 36.7\% & \$96.7B & 5,227 & 523 \\
+        Last 5 Years (2018-2022) & 90 & 18.0 & \$623.0B & 23.6\% & \$124.6B & 1,751 & 350 \\
+        Last 3 Years (2020-2022) & 60 & 20.0 & \$456.0B & 17.3\% & \$152.0B & 1,460 & 487 \\
+        Last Year (2022) & 18 & 18.0 & \$178.8B & 6.8\% & \$178.8B & 474 & 474 \\
+        All Years (1980-2023)* & 372 & 8.5 & \$2,635.1B & 100.0\% & \$59.9B & 16,231 & 369 \\
+        \hline
     \end{tabular}
     \caption{NEIC: Billion-Dollar Disasters Data}
     \cite{ncei}
@@ -112,19 +112,19 @@ varying impacts of different types of natural catastrophes and their associated 
 \begin{table}[h]
   \label{tab:natural_cat_losses}
     \centering
-    \caption{Natural Catastrophe Losses in the United States by Peril, 2022 (in \textdollar{} millions)}
     \begin{tabular}{|l|c|c|c|c|}
-    \hline
-    Peril & Number of Events & Fatalities & Economic Losses (2) & Insured Losses (3) \\
-    \hline
-    Tropical Cyclone & 3 & 157 & \textdollar 96,097 & \textdollar 53,203 \\
-    Severe Convective Storm & 62 & 49 & \textdollar 37,232 & \textdollar 29,306 \\
-    Wildfire, Drought, Heatwave & 26 & 65 & \textdollar 18,093 & \textdollar 8,902 \\
-    Winter Storm & 13 & 123 & \textdollar 6,223 & \textdollar 4,128 \\
-    Flooding & 15 & 72 & \textdollar 7,234 & \textdollar 3,346 \\
-    Total & 119 & $\sim$466 & \textdollar 164,879 & \textdollar 98,885 \\
-    \hline
+        \hline
+        Peril & Number of Events & Fatalities & Economic Losses (2) & Insured Losses (3) \\
+        \hline
+        Tropical Cyclone & 3 & 157 & \textdollar 96,097 & \textdollar 53,203 \\
+        Severe Convective Storm & 62 & 49 & \textdollar 37,232 & \textdollar 29,306 \\
+        Wildfire, Drought, Heatwave & 26 & 65 & \textdollar 18,093 & \textdollar 8,902 \\
+        Winter Storm & 13 & 123 & \textdollar 6,223 & \textdollar 4,128 \\
+        Flooding & 15 & 72 & \textdollar 7,234 & \textdollar 3,346 \\
+        Total & 119 & $\sim$466 & \textdollar 164,879 & \textdollar 98,885 \\
+        \hline
     \end{tabular}    
+    \caption{Natural Catastrophe Losses in the United States by Peril, 2022 (in \textdollar millions)}
     \cite{iii}
 \end{table}
 
@@ -136,23 +136,23 @@ values in 2022 dollars. Analyzing this information will allow us to assess how i
 \begin{table}[h]
   \label{tab:insured_prop_losses}
     \centering
-    \caption{Estimated Insured Property Losses, U.S. Natural Catastrophes, 2013-2022 (in \textdollar billions)}
     \begin{tabular}{|c|c|c|}
-    \hline
-    Year & In dollars when occurred & In 2022 dollars (2) \\
-    \hline
-    2013 & \textdollar 24.1 & \textdollar 31.0 \\
-    2014 & \textdollar 23.2 & \textdollar 29.2 \\
-    2015 & \textdollar 22.9 & \textdollar 28.8 \\
-    2016 & \textdollar 31.6 & \textdollar 39.3 \\
-    2017 & \textdollar 130.9 & \textdollar 158.7 \\
-    2018 & \textdollar 60.4 & \textdollar 71.6 \\
-    2019 & \textdollar 38.8 & \textdollar 45.2 \\
-    2020 & \textdollar 81.0 & \textdollar 93.3 \\
-    2021 & \textdollar 93.3 & \textdollar 102.7 \\
-    2022 & \textdollar 98.8 & \textdollar 99.9 \\
-    \hline
+        \hline
+        Year & In dollars when occurred & In 2022 dollars (2) \\
+        \hline
+        2013 & \textdollar 24.1 & \textdollar 31.0 \\
+        2014 & \textdollar 23.2 & \textdollar 29.2 \\
+        2015 & \textdollar 22.9 & \textdollar 28.8 \\
+        2016 & \textdollar 31.6 & \textdollar 39.3 \\
+        2017 & \textdollar 130.9 & \textdollar 158.7 \\
+        2018 & \textdollar 60.4 & \textdollar 71.6 \\
+        2019 & \textdollar 38.8 & \textdollar 45.2 \\
+        2020 & \textdollar 81.0 & \textdollar 93.3 \\
+        2021 & \textdollar 93.3 & \textdollar 102.7 \\
+        2022 & \textdollar 98.8 & \textdollar 99.9 \\
+        \hline
     \end{tabular}
+    \caption{Estimated Insured Property Losses, U.S. Natural Catastrophes, 2013-2022 (in \textdollar billions)}
     \cite{iii}
 \end{table}    
     
@@ -205,7 +205,27 @@ impact of weather-related disasters on property insurance, thereby enabling us t
 
 \section{Methods}
 \label{sec:meth}
+We estimate the influence of natural disasters on homeowners insurance premiums using panel regression models with state and year 
+fixed effects:
 
+\begin{equation} 
+    \mathrm{Premium}{ist} = \beta_0 + \beta_1 , \mathrm{Disasters}{ist} + \gamma_i + \delta_t + \epsilon_{ist} 
+\end{equation}
+
+The dependent variable is the logged average premium in state $i$ and year $t$. The main independent variables are disaster measures 
+for state-year:
+
+\begin{itemize} 
+    \item Number of events 
+    \item Total cost 
+    \item Insured losses 
+    \item Indicators for peril types: hurricane, flood, severe storm, winter weather, wildfire, earthquake 
+\end{itemize}
+
+Logs are used given the skewed distribution of disaster cost variables. State and year fixed effects control for time-invariant 
+differences across states and national trends. We first examine the influence of aggregated disaster activity. We then estimate 
+models interacting the disaster measures with peril indicators to compare sensitivity across event types. Quantile regression is 
+also used to test if effects differ across the premium distribution.
 
 
 
