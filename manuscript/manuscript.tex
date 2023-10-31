@@ -5,7 +5,7 @@
 \usepackage[margin = 1in]{geometry}
 \usepackage{graphicx}
 \usepackage{booktabs}
-\usepackage{natbib}
+\usepackage[numbers]{natbib}
 \usepackage{amsfonts}
 \usepackage{dingbat}
 
@@ -87,7 +87,8 @@ associated fatalities. These temporal segments, ranging from the 1980s to the pr
 identify potential patterns.
 
 \begin{table}[h]
-  \label{tab:bil_dol_disasters} 
+    \caption{NEIC: Billion-Dollar Disasters Data}
+    \label{tab:bil_dol_disasters} 
     \centering
     \begin{tabular}{|l|c|c|c|c|c|c|c|c|}
         \hline
@@ -103,7 +104,6 @@ identify potential patterns.
         All Years (1980-2023)* & 372 & 8.5 & \$2,635.1B & 100.0\% & \$59.9B & 16,231 & 369 \\
         \hline
     \end{tabular}
-    \caption{NEIC: Billion-Dollar Disasters Data}
     \cite{ncei}
 \end{table}
 
@@ -128,7 +128,8 @@ concentration and frequency of multiple disasters in a single year.
 
 
 \begin{table}[h]
-  \label{tab:natural_cat_losses}
+    \caption{Natural Catastrophe Losses in the United States by Peril, 2022 (in \$ millions)}
+    \label{tab:natural_cat_losses}
     \centering
     \begin{tabular}{|l|c|c|c|c|}
         \hline
@@ -142,7 +143,6 @@ concentration and frequency of multiple disasters in a single year.
         Total & 119 & $\sim$466 & \$ 164,879 & \$ 98,885 \\
         \hline
     \end{tabular}    
-    \caption{Natural Catastrophe Losses in the United States by Peril, 2022 (in \$ millions)}
     \cite{iii}
 \end{table}
 
@@ -152,7 +152,8 @@ values in 2022 dollars. Analyzing this information will allow us to assess how i
 
 
 \begin{table}[h]
-  \label{tab:insured_prop_losses}
+    \caption{Estimated Insured Property Losses, U.S. Natural Catastrophes, 2013-2022 (in \$ billions)}
+    \label{tab:insured_prop_losses}
     \centering
     \begin{tabular}{|c|c|c|}
         \hline
@@ -170,14 +171,13 @@ values in 2022 dollars. Analyzing this information will allow us to assess how i
         2022 & \$ 98.8 & \$ 99.9 \\
         \hline
     \end{tabular}
-    \caption{Estimated Insured Property Losses, U.S. Natural Catastrophes, 2013-2022 (in \$ billions)}
     \cite{iii}
 \end{table}    
     
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.8\linewidth]{NAIC HO threats.pdf}
     \label{fig:disaster_threats}
+    \includegraphics[width=0.8\linewidth]{NAIC HO threats.pdf}
     \cite{naic}
 \end{figure}
 
@@ -270,7 +270,7 @@ also used to test if effects differ across the premium distribution.
 \section{Results}
 \label{sec:resu}
 \subsection{Summary Statistics}
-Table 1 \ref{tab:summary} presents summary statistics for the premium and disaster data. The disaster measures show substantial variability, 
+Table 4 \ref{tab:summary} presents summary statistics for the premium and disaster data. The disaster measures show substantial variability, 
 highlighting the irregular nature of extremes. Hurricane and flooding perils account for the largest share of overall cost and 
 insured losses.
 
@@ -292,11 +292,12 @@ insured losses.
 \end{table}
 
 \subsection{Regression Results}
-Table 2 \ref{tab:reg_results} presents results from the panel regressions. The number of disasters and total cost are significantly associated with 
+Table 5 \ref{tab:reg_results} presents results from the panel regressions. The number of disasters and total cost are significantly associated with 
 higher premiums based on the log-log specification. A 10\% increase in disasters corresponds to a 14.7\% rise in premiums. Meanwhile, 
 a 10\% rise in total damage leads to a 23.1\% premium increase.
 
 \begin{table}[h]
+    \caption{Regression Results}
     \label{tab:reg_results}
     \centering
     \begin{tabular}{|l|c|c|c|}
@@ -316,18 +317,19 @@ a 10\% rise in total damage leads to a 23.1\% premium increase.
         $R^2$ & 0.160 & 0.193 & 0.160 \\
         \hline
     \end{tabular}
-    \caption{Regression Results}
+    
     \cite{statista, ncai}
   \end{table}
   
 
-  The results presented in Table 3 (see Table \ref{tab:reg_peril}) indicate that hurricane and flood disasters have the most 
+  The results presented in Table 6 \ref{tab:reg_peril} indicate that hurricane and flood disasters have the most 
   substantial impacts on insurance premiums. Specifically, a 10\% increase in hurricane or flood damage is associated with 
   approximately a 0.01\% increase in premiums. Severe storms and winter weather also exhibit positive effects on premiums. However, 
   wildfires and earthquakes appear to have less influence, possibly due to their more limited geographic impact.
 
 \begin{table}[h]
     \centering
+    \caption{Disaster Effects by Peril}
     \label{tab:reg_peril}
     \begin{tabular}{|l|c|c|c|}
       \hline
@@ -346,7 +348,7 @@ a 10\% rise in total damage leads to a 23.1\% premium increase.
       $R^2$ & 0.935 & 0.935 & 0.935 \\
       \hline
     \end{tabular}
-    \caption{Disaster Effects by Peril}
+    
     \cite{statista, ncai}
   \end{table}
   

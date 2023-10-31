@@ -1,47 +1,78 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: manuscript.aux
-I found no \bibdata command---while reading file manuscript.aux
-I found no \bibstyle command---while reading file manuscript.aux
-You've used 6 entries,
-            0 wiz_defined-function locations,
-            89 strings with 525 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
+Reallocating 'name_of_file' (item size: 1) to 5 items.
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: chicago.bst
+Database file #1: refs.bib
+I was expecting a `,' or a `}'---line 63 of file refs.bib
+ :   
+ :   url={https://www.aon.com/getmedia/f34ec133-3175-406c-9e0b-25cea768c5cf/20230125-weather-climate-catastrophe-insight.pd},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "hurricaneco"
+Warning--I didn't find a database entry for "ncai"
+Warning--no key, author in naic
+Warning--no author, editor, or organization in naic
+Warning--to sort, need author or key in naic
+Warning--no key, author in fema
+Warning--no author, editor, or organization in fema
+Warning--to sort, need author or key in fema
+Warning--no key, author in fema
+Warning--no author, editor, or organization in fema
+Warning--no key, author in fema
+Warning--no author, editor, or organization in fema
+Warning--no key, author in naic
+Warning--no author, editor, or organization in naic
+Warning--no key, author in naic
+Warning--no author, editor, or organization in naic
+Warning--no key, author in fema
+Warning--no author, editor, or organization in fema
+Warning--empty year in fema
+Warning--no key, author in naic
+Warning--no author, editor, or organization in naic
+Warning--empty year in aon
+Warning--empty year in iii
+Warning--empty year in ncei
+You've used 7 entries,
+            2861 wiz_defined-function locations,
+            642 strings with 5463 characters,
+and the built_in function-call counts, 3145 in all, are:
+= -- 265
+> -- 130
 < -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
-int.to.chr$ -- 0
++ -- 32
+- -- 50
+* -- 226
+:= -- 538
+add.period$ -- 13
+call.type$ -- 7
+change.case$ -- 38
+chr.to.int$ -- 7
+cite$ -- 37
+duplicate$ -- 110
+empty$ -- 255
+format.name$ -- 50
+if$ -- 572
+int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
+missing$ -- 1
+newline$ -- 30
+num.names$ -- 50
+pop$ -- 71
+preamble$ -- 1
+purify$ -- 82
 quote$ -- 0
-skip$ -- 0
+skip$ -- 88
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 171
+swap$ -- 36
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
+type$ -- 140
+warning$ -- 22
+while$ -- 51
 width$ -- 0
-write$ -- 0
-(There were 2 error messages)
+write$ -- 71
+(There was 1 error message)
