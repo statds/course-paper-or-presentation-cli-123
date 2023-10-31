@@ -5,15 +5,14 @@ Reallocating 'name_of_file' (item size: 1) to 5 items.
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: chicago.bst
 Database file #1: refs.bib
-I was expecting a `,' or a `}'---line 65 of file refs.bib
+I was expecting a `,' or a `}'---line 63 of file refs.bib
  :   
  :   url={https://www.aon.com/getmedia/f34ec133-3175-406c-9e0b-25cea768c5cf/20230125-weather-climate-catastrophe-insight.pd},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Illegal end of database file---line 166 of file refs.bib
- : 
- : 
-(Error may have been on previous line)
+I was expecting a `,' or a `}'---line 159 of file refs.bib
+ : @misc{Disaster 
+ :                Declarations Summaries - v1 | FEMA.gov,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "hurricaneco"
 Warning--no key, author in naic

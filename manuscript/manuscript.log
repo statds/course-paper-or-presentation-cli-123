@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.20)  29 OCT 2023 23:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.20)  30 OCT 2023 20:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -333,32 +333,348 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip55
 )
+(C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
+
+(C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count291
+
+(C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+
+! Package biblatex Error: Incompatible package 'natbib'.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.212 \blx@packageincompatibility
+                                 
+? 
+\c@tabx@nest=\count292
+\c@listtotal=\count293
+\c@listcount=\count294
+\c@liststart=\count295
+\c@liststop=\count296
+\c@citecount=\count297
+\c@citetotal=\count298
+\c@multicitecount=\count299
+\c@multicitetotal=\count300
+\c@instcount=\count301
+\c@maxnames=\count302
+\c@minnames=\count303
+\c@maxitems=\count304
+\c@minitems=\count305
+\c@citecounter=\count306
+\c@maxcitecounter=\count307
+\c@savedcitecounter=\count308
+\c@uniquelist=\count309
+\c@uniquename=\count310
+\c@refsection=\count311
+\c@refsegment=\count312
+\c@maxextratitle=\count313
+\c@maxextratitleyear=\count314
+\c@maxextraname=\count315
+\c@maxextradate=\count316
+\c@maxextraalpha=\count317
+\c@abbrvpenalty=\count318
+\c@highnamepenalty=\count319
+\c@lownamepenalty=\count320
+\c@maxparens=\count321
+\c@parenlevel=\count322
+\blx@tempcnta=\count323
+\blx@tempcntb=\count324
+\blx@tempcntc=\count325
+\c@blx@maxsection=\count326
+\blx@maxsegment@0=\count327
+\blx@notetype=\count328
+\blx@parenlevel@text=\count329
+\blx@parenlevel@foot=\count330
+\blx@sectionciteorder@0=\count331
+\blx@sectionciteorderinternal@0=\count332
+\blx@entrysetcounter=\count333
+\blx@biblioinstance=\count334
+\labelnumberwidth=\skip56
+\labelalphawidth=\skip57
+\biblabelsep=\skip58
+\bibitemsep=\skip59
+\bibnamesep=\skip60
+\bibinitsep=\skip61
+\bibparsep=\skip62
+
+! LaTeX Error: Command \bibhang already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.908 \newlength{\bibhang}
+                          
+? 
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language79
+\c@mincomprange=\count335
+\c@maxcomprange=\count336
+\c@mincompwidth=\count337
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+(C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric-comp.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count338
+\c@savedafterword=\count339
+\c@annotator=\count340
+\c@savedannotator=\count341
+\c@author=\count342
+\c@savedauthor=\count343
+\c@bookauthor=\count344
+\c@savedbookauthor=\count345
+\c@commentator=\count346
+\c@savedcommentator=\count347
+\c@editor=\count348
+\c@savededitor=\count349
+\c@editora=\count350
+\c@savededitora=\count351
+\c@editorb=\count352
+\c@savededitorb=\count353
+\c@editorc=\count354
+\c@savededitorc=\count355
+\c@foreword=\count356
+\c@savedforeword=\count357
+\c@holder=\count358
+\c@savedholder=\count359
+\c@introduction=\count360
+\c@savedintroduction=\count361
+\c@namea=\count362
+\c@savednamea=\count363
+\c@nameb=\count364
+\c@savednameb=\count365
+\c@namec=\count366
+\c@savednamec=\count367
+\c@translator=\count368
+\c@savedtranslator=\count369
+\c@shortauthor=\count370
+\c@savedshortauthor=\count371
+\c@shorteditor=\count372
+\c@savedshorteditor=\count373
+\c@labelname=\count374
+\c@savedlabelname=\count375
+\c@institution=\count376
+\c@savedinstitution=\count377
+\c@lista=\count378
+\c@savedlista=\count379
+\c@listb=\count380
+\c@savedlistb=\count381
+\c@listc=\count382
+\c@savedlistc=\count383
+\c@listd=\count384
+\c@savedlistd=\count385
+\c@liste=\count386
+\c@savedliste=\count387
+\c@listf=\count388
+\c@savedlistf=\count389
+\c@location=\count390
+\c@savedlocation=\count391
+\c@organization=\count392
+\c@savedorganization=\count393
+\c@origlocation=\count394
+\c@savedoriglocation=\count395
+\c@origpublisher=\count396
+\c@savedorigpublisher=\count397
+\c@publisher=\count398
+\c@savedpublisher=\count399
+\c@language=\count400
+\c@savedlanguage=\count401
+\c@origlanguage=\count402
+\c@savedoriglanguage=\count403
+\c@pageref=\count404
+\c@savedpageref=\count405
+\shorthandwidth=\skip63
+\shortjournalwidth=\skip64
+\shortserieswidth=\skip65
+\shorttitlewidth=\skip66
+\shortauthorwidth=\skip67
+\shorteditorwidth=\skip68
+\locallabelnumberwidth=\skip69
+\locallabelalphawidth=\skip70
+\localshorthandwidth=\skip71
+\localshortjournalwidth=\skip72
+\localshortserieswidth=\skip73
+\localshorttitlewidth=\skip74
+\localshortauthorwidth=\skip75
+\localshorteditorwidth=\skip76
+
+
+! LaTeX Error: Command \citename already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12630 ...*{\citename}{\blx@citexpunct{citename}}
+                                                  
+? 
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+\c@textcitecount=\count406
+\c@textcitetotal=\count407
+\c@textcitemaxnames=\count408
+\c@biburlbigbreakpenalty=\count409
+\c@biburlbreakpenalty=\count410
+\c@biburlnumpenalty=\count411
+\c@biburlucpenalty=\count412
+\c@biburllcpenalty=\count413
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+
+! LaTeX Error: Command \bibfont already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.339 ...ommand*{\bibfont}{\normalfont\normalsize}
+                                                  
+? 
+\c@smartand=\count414
+
+Package biblatex Warning: Redefining '\citeauthor'.
+
+
+Package biblatex Warning: Redefining '\citeyear'.
+
+
+! LaTeX Error: Command \Citeauthor already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2306 ...e\citeauthor*}{\bibsentence\citeauthor}}
+                                                  
+? 
+)
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric-co
+mp.bbx
+File: numeric-comp.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bb
+x
+File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
+bx
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count415
+\c@bbx:relatedtotal=\count416
+)))
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-co
+mp.cbx
+File: numeric-comp.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count417
+\c@cbx@tempcntb=\count418
+\c@cbx@tempcntc=\count419
+\c@cbx@tempcntd=\count420
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+
+(C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-08-11 L3 programming layer (loader) 
+
 (C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count291
+\l__color_backend_stack_int=\count421
 \l__pdf_internal_box=\box53
-) (manuscript.aux)
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2023-08-11 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3
+.sty
+(C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+Package: xparse 2023-02-02 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
+))
+\@quotelevel=\count422
+\@quotereset=\count423
+ (manuscript.aux)
 \openout1 = `manuscript.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -398,16 +714,16 @@ LaTeX Font Info:    ... okay on input line 23.
 (C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count292
+\scratchcounter=\count424
 \scratchdimen=\dimen177
 \scratchbox=\box54
-\nofMPsegments=\count293
-\nofMParguments=\count294
+\nofMPsegments=\count425
+\nofMParguments=\count426
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count295
+\MPscratchCnt=\count427
 \MPscratchDim=\dimen178
-\MPnumerator=\count296
-\makeMPintoPDFobject=\count297
+\MPnumerator=\count428
+\makeMPintoPDFobject=\count429
 \everyMPtoPDFconversion=\toks25
 )
 (C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -427,18 +743,43 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
 (C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 )
-Package hyperref Info: Link coloring ON on input line 23.
+Package hyperref Info: Link coloring ON on input line 24.
  (manuscript.out) (manuscript.out)
-\@outlinefile=\write3
-\openout3 = `manuscript.out'.
+\@outlinefile=\write4
+\openout4 = `manuscript.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
 
+(C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lb
+x
+File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `manuscript.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+
+
+! Package biblatex Error: File 'manuscript.bbl' not created by biblatex.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \begin{document}
+                     ^^M
+? 
+Package biblatex Info: Reference section=0 on input line 24.
+Package biblatex Info: Reference segment=0 on input line 24.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
 
 (C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
 
 
 (C:\Users\carol\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -448,35 +789,49 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {C:/Users/carol/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
-Package natbib Warning: Citation `hurricaneco' on page 2 undefined on input lin
-e 58.
+LaTeX Warning: Citation 'hurricaneco' on page 2 undefined on input line 59.
 
 
-Overfull \hbox (80.19763pt too wide) in paragraph at lines 77--82
-\OT1/cmr/m/n/12 sources in-clude the Na-tional Cen-ters for En-vi-ron-men-tal I
-n-for-ma-tion (NCEI)[][]NCEI.Monitoring.Info@noaa.gov[][]
- []
+LaTeX Warning: Citation 'ncei' on page 2 undefined on input line 80.
 
 
-Overfull \hbox (252.70535pt too wide) in paragraph at lines 92--106
+LaTeX Warning: Citation 'iii' on page 2 undefined on input line 81.
+
+
+LaTeX Warning: Citation 'aon' on page 2 undefined on input line 81.
+
+
+LaTeX Warning: Citation 'naic' on page 2 undefined on input line 81.
+
+
+LaTeX Warning: Citation 'ncei' on page 2 undefined on input line 84.
+
+
+Overfull \hbox (252.70535pt too wide) in paragraph at lines 93--107
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<NCEI US disaster freq.pdf, id=62, 835.20026pt x 451.6875pt>
+
+LaTeX Warning: Citation 'iii' on page 2 undefined on input line 113.
+
+<NCEI US disaster freq.pdf, id=52, 835.20026pt x 451.6875pt>
 File: NCEI US disaster freq.pdf Graphic file (type pdf)
 <use NCEI US disaster freq.pdf>
-Package pdftex.def Info: NCEI US disaster freq.pdf  used on input line 112.
+Package pdftex.def Info: NCEI US disaster freq.pdf  used on input line 120.
 (pdftex.def)             Requested size: 375.80544pt x 203.23682pt.
 
-Overfull \hbox (76.46506pt too wide) in paragraph at lines 125--137
+Overfull \hbox (76.46506pt too wide) in paragraph at lines 133--145
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation 'iii' on page 2 undefined on input line 149.
 
 [2]
 
@@ -486,87 +841,131 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ./NAIC HO threats.pdf): PDF inclusion: found
  PDF version <1.6>, but at most version <1.5> allowed
-<NAIC HO threats.pdf, id=83, 437.87589pt x 260.19208pt>
+<NAIC HO threats.pdf, id=62, 437.87589pt x 260.19208pt>
 File: NAIC HO threats.pdf Graphic file (type pdf)
 <use NAIC HO threats.pdf>
-Package pdftex.def Info: NAIC HO threats.pdf  used on input line 171.
+Package pdftex.def Info: NAIC HO threats.pdf  used on input line 179.
 (pdftex.def)             Requested size: 375.80544pt x 223.32408pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./NAIC Property Threat by Regions.pdf): PDF 
 inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<NAIC Property Threat by Regions.pdf, id=84, 540.26843pt x 209.60309pt>
+<NAIC Property Threat by Regions.pdf, id=64, 540.26843pt x 209.60309pt>
 File: NAIC Property Threat by Regions.pdf Graphic file (type pdf)
 <use NAIC Property Threat by Regions.pdf>
 Package pdftex.def Info: NAIC Property Threat by Regions.pdf  used on input lin
-e 178.
+e 190.
 (pdftex.def)             Requested size: 375.80544pt x 145.80005pt.
 [3 <./NCEI US disaster freq.pdf>] [4] [5 <./NAIC HO threats.pdf> <./NAIC Proper
 ty Threat by Regions.pdf>]
+! Undefined control sequence.
+l.284         Premium & \$\num
+                              {959.2} & \$\num{238.5208} & \$\num{536} - \$\...
 
-LaTeX Warning: File `premium_trend.pdf' not found on input line 284.
+? 
+! Undefined control sequence.
+l.284         Premium & \$\num{959.2} & \$\num
+                                              {238.5208} & \$\num{536} - \$\...
 
-
-! Package pdftex.def Error: File `premium_trend.pdf' not found: using draft set
-ting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.284 ...s[width=0.8\linewidth]{premium_trend.pdf}
-                                                  
+? 
+! Undefined control sequence.
+l.284 ...\$\num{959.2} & \$\num{238.5208} & \$\num
+                                                  {536} - \$\num{1311} \\
+? 
+! Undefined control sequence.
+l.284 ...& \$\num{238.5208} & \$\num{536} - \$\num
+                                                  {1311} \\
 ? 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [6]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Citation 'aon' on page 7 undefined on input line 357.
 
-[7] (manuscript.bbl [8])
+[7]
 
-Package natbib Warning: There were undefined citations.
+LaTeX Warning: Citation 'naic' on page 8 undefined on input line 366.
 
-[9] (manuscript.aux)
+
+LaTeX Warning: Citation 'kousky' on page 8 undefined on input line 367.
+
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.372 \bibliography
+                   {refs}
+? 
+
+! Package biblatex Error: '\bibliographystyle' invalid for 'biblatex'.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.373 \bibliographystyle{chicago}
+                                 
+? 
+[8] (manuscript.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
  ***********
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: 364A9323D81EFBE7C1E357C9CF646B2D;840.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                manuscript
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'manuscript.run.xml'.
+\openout1 = `manuscript.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 10310 strings out of 475503
- 160763 string characters out of 5761834
- 1938248 words of memory out of 5000000
- 31404 multiletter control sequences out of 15000+600000
- 568293 words of font info for 75 fonts, out of 8000000 for 9000
+ 17486 strings out of 475503
+ 305905 string characters out of 5761834
+ 1939248 words of memory out of 5000000
+ 38536 multiletter control sequences out of 15000+600000
+ 567777 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,79p,246b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\carol\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
-1200.pk><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmmi12.pfb><C:/Users/carol/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/carol/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/carol/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/carol/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ca
-rol/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/U
-sers/carol/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmsy8.pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmti12.pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmtt12.pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on manuscript.pdf (9 pages, 372917 bytes).
+ 75i,10n,81p,685b,1150s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{cite.iii} has been referenced but does not exist, r
+eplaced by a fixed one
+
+
+pdfTeX warning (dest): name{cite.ncei} has been referenced but does not exist, 
+replaced by a fixed one
+
+ <C:\Users\carol\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm12
+00.pk><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmbx12.pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmmi12.pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/carol/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/carol/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/carol/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/caro
+l/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Use
+rs/carol/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmsy8.pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/symbols/msam10.pfb>
+Output written on manuscript.pdf (8 pages, 348174 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
+ 207 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
  80 words of extra memory for PDF output out of 10000 (max. 10000000)
 

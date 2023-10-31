@@ -12,6 +12,8 @@
 
 % highlighting hyper links
 \usepackage[colorlinks=true, citecolor=blue]{hyperref}
+\usepackage[style=numeric-comp]{biblatex}
+
 
 
 \title{The Impact of Extreme Weather Events on Property Insurance Pricing}
@@ -54,13 +56,13 @@ manage the increased risks associated with these events, which can have a signif
 
 While previous research has examined different aspects of this complex issue, including the impact of weather risks on insurance 
 prices, there is much more waiting to be discovered. Our research is based on valuable insights into the value of previous work 
-\cite{hurricaneco} aimed at assets that have provided insurance pricing of weather frequency and severity. It provides a general 
+\citep{hurricaneco} aimed at assets that have provided insurance pricing of weather frequency and severity. It provides a general 
 understanding of how frequency and severity affect the pricing of property insurance. We are also trying to identify effective 
 strategies that can reduce the financial burden of homeowners in the face of these major disasters.
 
 
 This research has used several methods, including statistical analysis and data science methods. To achieve our goals, we will draw 
-data from reliable sources, such as the Insurance Information Agency, National Centers for Environmental Informations, and Aon's 2023 
+data from reliable sources, such as the Insurance Information Agency, NationalInsurance Centers for Environmental Informations, and Aon's 2023 
 Weather, Climate and Disaster Investigation Report. This study is not only timely but critically important at a time of increasing 
 weather-related risks, with the goal of contributing to homeowner well-being and the stability of the property insurance market.
 
@@ -116,7 +118,6 @@ varying impacts of different types of natural catastrophes and their associated 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.8\linewidth]{NCEI US disaster freq.pdf}
-    \caption{}
     \label{fig:disaster_freq}
 \end{figure}
 
@@ -368,7 +369,7 @@ pricing will also grow increasingly important for insurers to sustainably provid
 
 
 
-\bibliography{refs}
+\bibliography{../manuscript/refs}
 \bibliographystyle{chicago}
 
 \end{document}
