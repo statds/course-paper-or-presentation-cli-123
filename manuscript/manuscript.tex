@@ -8,11 +8,11 @@
 \usepackage{natbib}
 \usepackage{amsfonts}
 \usepackage{dingbat}
+\usepackage{cite}
 
 
 % highlighting hyper links
 \usepackage[colorlinks=true, citecolor=blue]{hyperref}
-\usepackage[style=numeric-comp]{biblatex}
 
 
 
@@ -105,7 +105,7 @@ identify potential patterns.
         \hline
     \end{tabular}
     \caption{NEIC: Billion-Dollar Disasters Data}
-    \citep{ncei}
+    \cite{ncei}
 \end{table}
 
 
@@ -119,6 +119,7 @@ varying impacts of different types of natural catastrophes and their associated 
     \centering
     \includegraphics[width=0.8\linewidth]{NCEI US disaster freq.pdf}
     \label{fig:disaster_freq}
+    \cite{ncei}
 \end{figure}
 
 This chart \ref{fig:disaster_freq} shows the percentage frequency of years from 1980-2023 that experienced different numbers of billion-dollar disasters. It 
@@ -143,7 +144,7 @@ concentration and frequency of multiple disasters in a single year.
         \hline
     \end{tabular}    
     \caption{Natural Catastrophe Losses in the United States by Peril, 2022 (in \$ millions)}
-    \citep{iii}
+    \cite{iii}
 \end{table}
 
 The Insurance Information Institute (III) \citep{iii} also supplies data on insured property losses in the United States for the years 
@@ -171,14 +172,14 @@ values in 2022 dollars. Analyzing this information will allow us to assess how i
         \hline
     \end{tabular}
     \caption{Estimated Insured Property Losses, U.S. Natural Catastrophes, 2013-2022 (in \$ billions)}
-    \citep{iii}
+    \cite{iii}
 \end{table}    
     
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.8\linewidth]{NAIC HO threats.pdf}
-    \caption{}
     \label{fig:disaster_threats}
+    \cite{naic}
 \end{figure}
 
 This figure \ref{fig:disaster_threats} shows the cumulative billion-dollar disaster costs in the United States from 1980-2023 on a year-to-date basis. It 
@@ -188,8 +189,8 @@ provides context on total disaster costs over time.
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.8\linewidth]{NAIC Property Threat by Regions.pdf}
-    \caption{}
     \label{fig:regional_disasters}
+    \cite{naic}
 \end{figure}
 
 This figure \ref{fig:regional_disasters} shows the number of billion-dollar disaster events by type in the United States from 1980-2023. It breaks down event counts 
@@ -288,6 +289,7 @@ insured losses.
         \hline
     \end{tabular}
     \caption{Summary Statistics}
+    \cite{statista,ncai,fema}
 \end{table}
 
 \subsection{Regression Results}
@@ -316,6 +318,7 @@ a 10\% rise in total damage leads to a 23.1\% premium increase.
         \hline
     \end{tabular}
     \caption{Regression Results}
+    \cite{statista,ncai}
   \end{table}
   
 
@@ -345,6 +348,7 @@ a 10\% rise in total damage leads to a 23.1\% premium increase.
       \hline
     \end{tabular}
     \caption{Disaster Effects by Peril}
+    \cite{statista,ncai}
   \end{table}
   
   
@@ -369,7 +373,7 @@ pricing will also grow increasingly important for insurers to sustainably provid
 
 
 
-\bibliography{../manuscript/refs}
+\bibliography{refs}
 \bibliographystyle{chicago}
 
 \end{document}
