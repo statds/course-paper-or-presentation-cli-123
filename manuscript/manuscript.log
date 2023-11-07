@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.20)  30 OCT 2023 21:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.20)  6 NOV 2023 22:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -449,30 +449,15 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {C:/Users/carol/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
 Package natbib Warning: Citation `hurricaneco' on page 2 undefined on input lin
-e 58.
-
-
-Overfull \hbox (252.70535pt too wide) in paragraph at lines 93--108
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<NCEI US disaster freq.pdf, id=58, 835.20026pt x 451.6875pt>
-File: NCEI US disaster freq.pdf Graphic file (type pdf)
-<use NCEI US disaster freq.pdf>
-Package pdftex.def Info: NCEI US disaster freq.pdf  used on input line 119.
-(pdftex.def)             Requested size: 375.80544pt x 203.23682pt.
-
-Overfull \hbox (76.46506pt too wide) in paragraph at lines 134--147
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+e 59.
 
 [2]
+<NCEI US disaster freq.pdf, id=68, 835.20026pt x 451.6875pt>
+File: NCEI US disaster freq.pdf Graphic file (type pdf)
+<use NCEI US disaster freq.pdf>
+Package pdftex.def Info: NCEI US disaster freq.pdf  used on input line 121.
+(pdftex.def)             Requested size: 375.80544pt x 203.23682pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -483,7 +468,7 @@ pdfTeX warning: pdflatex.exe (file ./NAIC HO threats.pdf): PDF inclusion: found
 <NAIC HO threats.pdf, id=75, 437.87589pt x 260.19208pt>
 File: NAIC HO threats.pdf Graphic file (type pdf)
 <use NAIC HO threats.pdf>
-Package pdftex.def Info: NAIC HO threats.pdf  used on input line 180.
+Package pdftex.def Info: NAIC HO threats.pdf  used on input line 182.
 (pdftex.def)             Requested size: 375.80544pt x 223.32408pt.
 
 
@@ -493,42 +478,41 @@ inclusion: found PDF version <1.6>, but at most version <1.5> allowed
 File: NAIC Property Threat by Regions.pdf Graphic file (type pdf)
 <use NAIC Property Threat by Regions.pdf>
 Package pdftex.def Info: NAIC Property Threat by Regions.pdf  used on input lin
-e 190.
+e 192.
 (pdftex.def)             Requested size: 375.80544pt x 145.80005pt.
-[3 <./NCEI US disaster freq.pdf>] [4] [5 <./NAIC HO threats.pdf> <./NAIC Proper
+[3 <./NCEI US disaster freq.pdf>] [4 <./NAIC HO threats.pdf>] [5 <./NAIC Proper
 ty Threat by Regions.pdf>]
 ! Undefined control sequence.
-l.284         Premium & \$\num
+l.286         Premium & \$\num
                               {959.2} & \$\num{238.5208} & \$\num{536} - \$\...
 
 ? 
 ! Undefined control sequence.
-l.284         Premium & \$\num{959.2} & \$\num
+l.286         Premium & \$\num{959.2} & \$\num
                                               {238.5208} & \$\num{536} - \$\...
 
 ? 
 ! Undefined control sequence.
-l.284 ...\$\num{959.2} & \$\num{238.5208} & \$\num
+l.286 ...\$\num{959.2} & \$\num{238.5208} & \$\num
                                                   {536} - \$\num{1311} \\
 ? 
 ! Undefined control sequence.
-l.284 ...& \$\num{238.5208} & \$\num{536} - \$\num
+l.286 ...& \$\num{238.5208} & \$\num{536} - \$\num
                                                   {1311} \\
 ? 
 
-Package natbib Warning: Citation `ncai' on page 6 undefined on input line 291.
+Package natbib Warning: Citation `ncai' on page 6 undefined on input line 293.
 
 
-Package natbib Warning: Citation `ncai' on page 6 undefined on input line 321.
+Package natbib Warning: Citation `ncai' on page 6 undefined on input line 323.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6]
 
-Package natbib Warning: Citation `ncai' on page 7 undefined on input line 352.
+Package natbib Warning: Citation `ncai' on page 6 undefined on input line 354.
 
-[7] (manuscript.bbl)
+[6] [7] (manuscript.bbl)
 
 Package natbib Warning: There were undefined citations.
 
@@ -542,12 +526,12 @@ Package rerunfilecheck Info: File `manuscript.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  10279 strings out of 475503
- 159968 string characters out of 5761834
- 1938248 words of memory out of 5000000
+ 159967 string characters out of 5761834
+ 1935248 words of memory out of 5000000
  31377 multiletter control sequences out of 15000+600000
  568124 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,79p,243b,451s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,79p,243b,493s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\carol\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -563,9 +547,9 @@ pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmti12.pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/symbols/msam10.pfb>
-Output written on manuscript.pdf (8 pages, 365347 bytes).
+Output written on manuscript.pdf (8 pages, 366344 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
+ 235 PDF objects out of 1000 (max. 8388607)
  36 named destinations out of 1000 (max. 500000)
  80 words of extra memory for PDF output out of 10000 (max. 10000000)
 
