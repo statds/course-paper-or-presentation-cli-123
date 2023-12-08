@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.20)  8 DEC 2023 17:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.20)  8 DEC 2023 17:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -449,13 +449,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 [1
 
-{C:/Users/carol/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-
-Package natbib Warning: Citation `hurricaneco' on page 2 undefined on input lin
-e 61.
-
-[2] [3]
-<NCEI US disaster freq.pdf, id=72, 835.20026pt x 451.6875pt>
+{C:/Users/carol/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
+[3]
+<NCEI US disaster freq.pdf, id=74, 835.20026pt x 451.6875pt>
 File: NCEI US disaster freq.pdf Graphic file (type pdf)
 <use NCEI US disaster freq.pdf>
 Package pdftex.def Info: NCEI US disaster freq.pdf  used on input line 123.
@@ -464,7 +460,7 @@ Package pdftex.def Info: NCEI US disaster freq.pdf  used on input line 123.
 
 pdfTeX warning: pdflatex.exe (file ./NAIC HO threats.pdf): PDF inclusion: found
  PDF version <1.6>, but at most version <1.5> allowed
-<NAIC HO threats.pdf, id=107, 437.87589pt x 260.19208pt>
+<NAIC HO threats.pdf, id=109, 437.87589pt x 260.19208pt>
 File: NAIC HO threats.pdf Graphic file (type pdf)
 <use NAIC HO threats.pdf>
 Package pdftex.def Info: NAIC HO threats.pdf  used on input line 184.
@@ -473,7 +469,7 @@ Package pdftex.def Info: NAIC HO threats.pdf  used on input line 184.
 
 pdfTeX warning: pdflatex.exe (file ./NAIC Property Threat by Regions.pdf): PDF 
 inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<NAIC Property Threat by Regions.pdf, id=110, 540.26843pt x 209.60309pt>
+<NAIC Property Threat by Regions.pdf, id=112, 540.26843pt x 209.60309pt>
 File: NAIC Property Threat by Regions.pdf Graphic file (type pdf)
 <use NAIC Property Threat by Regions.pdf>
 Package pdftex.def Info: NAIC Property Threat by Regions.pdf  used on input lin
@@ -499,38 +495,20 @@ l.288 ...\$\num{959.2} & \$\num{238.5208} & \$\num
 l.288 ...& \$\num{238.5208} & \$\num{536} - \$\num
                                                   {1311} \\
 ? 
-
-Package natbib Warning: Citation `ncai' on page 8 undefined on input line 295.
-
-
-Package natbib Warning: Citation `ncai' on page 8 undefined on input line 325.
-
-[8]
-
-Package natbib Warning: Citation `ncai' on page 9 undefined on input line 356.
-
-[9] (manuscript.bbl [10])
-
-Package natbib Warning: There were undefined citations.
-
-[11] (manuscript.aux)
+[8] [9] (manuscript.bbl [10]) [11] (manuscript.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: 364A9323D81EFBE7C1E357C9CF646B2D;840.
  ) 
 Here is how much of TeX's memory you used:
- 10328 strings out of 475503
- 160971 string characters out of 5761834
+ 10331 strings out of 475503
+ 161033 string characters out of 5761834
  1934248 words of memory out of 5000000
- 31419 multiletter control sequences out of 15000+600000
- 568124 words of font info for 74 fonts, out of 8000000 for 9000
+ 31421 multiletter control sequences out of 15000+600000
+ 567817 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,10n,79p,243b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\carol\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
@@ -548,9 +526,9 @@ pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmti12.pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/symbols/msam10.pfb>
-Output written on manuscript.pdf (11 pages, 368529 bytes).
+Output written on manuscript.pdf (11 pages, 370209 bytes).
 PDF statistics:
- 250 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
+ 255 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
  80 words of extra memory for PDF output out of 10000 (max. 10000000)
 

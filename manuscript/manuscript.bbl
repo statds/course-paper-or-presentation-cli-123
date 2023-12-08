@@ -1,14 +1,16 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\citeauthoryear{??}{fem}{}]{fema}
-
-
 \bibitem[\protect\citeauthoryear{??}{nai}{2021}]{naic}
  (2021, Mar).
 \newblock Billion-dollar weather and climate disasters.
 
 \bibitem[\protect\citeauthoryear{contributers}{contributers}{}]{aon}
 contributers, A.
+\newblock 2023 weather, climate and catastrophe insight.
+
+\bibitem[\protect\citeauthoryear{FEMA}{FEMA}{2023}]{FEMA}
+FEMA (2023).
+\newblock Openfema dataset: Disaster declarations summaries - v1.
 
 \bibitem[\protect\citeauthoryear{Institute}{Institute}{}]{iii}
 Institute, I.~I.
@@ -23,6 +25,13 @@ Kousky, C. (2019).
 \bibitem[\protect\citeauthoryear{NCEI.Monitoring.Info@noaa.gov}{NCEI.Monitoring.Info@noaa.gov}{}]{ncei}
 NCEI.Monitoring.Info@noaa.gov.
 \newblock Billion-dollar weather and climate disasters.
+
+\bibitem[\protect\citeauthoryear{Otto, Kuhla, Geiger, Schewe, and Frieler}{Otto
+  et~al.}{2023}]{hurricaneeco}
+Otto, C., K.~Kuhla, T.~Geiger, J.~Schewe, and K.~Frieler (2023).
+\newblock Better insurance could effectively mitigate the increase in economic
+  growth losses from u.s. hurricanes under global warming.
+\newblock {\em Science Advances\/}~{\em 9\/}(1), eadd6616.
 
 \bibitem[\protect\citeauthoryear{Rudden}{Rudden}{2023}]{statista}
 Rudden, J. (2023, Aug).
