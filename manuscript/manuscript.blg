@@ -5,57 +5,48 @@ Reallocating 'name_of_file' (item size: 1) to 5 items.
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: chicago.bst
 Database file #1: refs.bib
-Warning--no key, author in naic
-Warning--no author, editor, or organization in naic
-Warning--to sort, need author or key in naic
-Warning--no key, author in naic
-Warning--no author, editor, or organization in naic
-Warning--no key, author in naic
-Warning--no author, editor, or organization in naic
-Warning--no key, author in naic
-Warning--no author, editor, or organization in naic
 Warning--empty year in aon
 Warning--empty year in iii
 Warning--empty year in ncei
 You've used 8 entries,
             2861 wiz_defined-function locations,
-            650 strings with 5799 characters,
-and the built_in function-call counts, 4192 in all, are:
-= -- 343
-> -- 251
+            650 strings with 5787 characters,
+and the built_in function-call counts, 4286 in all, are:
+= -- 349
+> -- 277
 < -- 0
-+ -- 68
-- -- 90
-* -- 324
-:= -- 777
++ -- 74
+- -- 100
+* -- 316
+:= -- 837
 add.period$ -- 18
 call.type$ -- 8
-change.case$ -- 51
+change.case$ -- 52
 chr.to.int$ -- 8
-cite$ -- 24
-duplicate$ -- 127
-empty$ -- 287
-format.name$ -- 94
-if$ -- 752
+cite$ -- 11
+duplicate$ -- 126
+empty$ -- 273
+format.name$ -- 104
+if$ -- 754
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 2
 newline$ -- 37
-num.names$ -- 70
-pop$ -- 65
+num.names$ -- 80
+pop$ -- 64
 preamble$ -- 1
-purify$ -- 99
+purify$ -- 100
 quote$ -- 0
-skip$ -- 112
+skip$ -- 113
 stack$ -- 0
-substring$ -- 211
+substring$ -- 207
 swap$ -- 42
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 160
-warning$ -- 12
-while$ -- 68
+warning$ -- 3
+while$ -- 78
 width$ -- 0
-write$ -- 90
-(There were 12 warnings)
+write$ -- 91
+(There were 3 warnings)

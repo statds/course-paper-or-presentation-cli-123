@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.20)  8 DEC 2023 17:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.20)  8 DEC 2023 22:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -451,66 +451,91 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {C:/Users/carol/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
 [3]
-<NCEI US disaster freq.pdf, id=74, 835.20026pt x 451.6875pt>
+<NCEI US disaster freq.pdf, id=75, 835.20026pt x 451.6875pt>
 File: NCEI US disaster freq.pdf Graphic file (type pdf)
 <use NCEI US disaster freq.pdf>
-Package pdftex.def Info: NCEI US disaster freq.pdf  used on input line 123.
+Package pdftex.def Info: NCEI US disaster freq.pdf  used on input line 152.
 (pdftex.def)             Requested size: 375.80544pt x 203.23682pt.
- [4 <./NCEI US disaster freq.pdf>]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4]
 
 pdfTeX warning: pdflatex.exe (file ./NAIC HO threats.pdf): PDF inclusion: found
  PDF version <1.6>, but at most version <1.5> allowed
-<NAIC HO threats.pdf, id=109, 437.87589pt x 260.19208pt>
+<NAIC HO threats.pdf, id=88, 437.87589pt x 260.19208pt>
 File: NAIC HO threats.pdf Graphic file (type pdf)
 <use NAIC HO threats.pdf>
-Package pdftex.def Info: NAIC HO threats.pdf  used on input line 184.
+Package pdftex.def Info: NAIC HO threats.pdf  used on input line 193.
 (pdftex.def)             Requested size: 375.80544pt x 223.32408pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./NAIC Property Threat by Regions.pdf): PDF 
 inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<NAIC Property Threat by Regions.pdf, id=112, 540.26843pt x 209.60309pt>
+<NAIC Property Threat by Regions.pdf, id=91, 540.26843pt x 209.60309pt>
 File: NAIC Property Threat by Regions.pdf Graphic file (type pdf)
 <use NAIC Property Threat by Regions.pdf>
 Package pdftex.def Info: NAIC Property Threat by Regions.pdf  used on input lin
-e 194.
+e 204.
 (pdftex.def)             Requested size: 375.80544pt x 145.80005pt.
-[5 <./NAIC HO threats.pdf>] [6 <./NAIC Property Threat by Regions.pdf>]
-[7]
+[5 <./NCEI US disaster freq.pdf>] [6 <./NAIC HO threats.pdf> <./NAIC Property T
+hreat by Regions.pdf>]
+<AON Top 10 Cyclones Economic Loss.pdf, id=130, 626.34pt x 275.52937pt>
+File: AON Top 10 Cyclones Economic Loss.pdf Graphic file (type pdf)
+<use AON Top 10 Cyclones Economic Loss.pdf>
+Package pdftex.def Info: AON Top 10 Cyclones Economic Loss.pdf  used on input l
+ine 221.
+(pdftex.def)             Requested size: 375.80544pt x 165.32309pt.
+<AON Top 10 Global Insured Loss Events.pdf, id=133, 622.57594pt x 263.48438pt>
+File: AON Top 10 Global Insured Loss Events.pdf Graphic file (type pdf)
+<use AON Top 10 Global Insured Loss Events.pdf>
+Package pdftex.def Info: AON Top 10 Global Insured Loss Events.pdf  used on inp
+ut line 239.
+(pdftex.def)             Requested size: 375.80544pt x 159.04869pt.
+ [7 <./AON Top 10 Cyclones Economic Loss.pdf>] [8 <./AON Top 10 Global Insured 
+Loss Events.pdf>] [9]
 ! Undefined control sequence.
-l.288         Premium & \$\num
+l.343         Premium & \$\num
                               {959.2} & \$\num{238.5208} & \$\num{536} - \$\...
 
 ? 
 ! Undefined control sequence.
-l.288         Premium & \$\num{959.2} & \$\num
+l.343         Premium & \$\num{959.2} & \$\num
                                               {238.5208} & \$\num{536} - \$\...
 
 ? 
 ! Undefined control sequence.
-l.288 ...\$\num{959.2} & \$\num{238.5208} & \$\num
+l.343 ...\$\num{959.2} & \$\num{238.5208} & \$\num
                                                   {536} - \$\num{1311} \\
 ? 
 ! Undefined control sequence.
-l.288 ...& \$\num{238.5208} & \$\num{536} - \$\num
+l.343 ...& \$\num{238.5208} & \$\num{536} - \$\num
                                                   {1311} \\
 ? 
-[8] [9] (manuscript.bbl [10]) [11] (manuscript.aux)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10] [11] [12] (manuscript.bbl) [13] (manuscript.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: 364A9323D81EFBE7C1E357C9CF646B2D;840.
  ) 
 Here is how much of TeX's memory you used:
- 10331 strings out of 475503
- 161033 string characters out of 5761834
- 1934248 words of memory out of 5000000
- 31421 multiletter control sequences out of 15000+600000
+ 10349 strings out of 475503
+ 161777 string characters out of 5761834
+ 1941248 words of memory out of 5000000
+ 31437 multiletter control sequences out of 15000+600000
  567817 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,79p,243b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,79p,243b,460s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\carol\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -526,9 +551,9 @@ pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmti12.pfb><C:/Users/carol/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/symbols/msam10.pfb>
-Output written on manuscript.pdf (11 pages, 370209 bytes).
+Output written on manuscript.pdf (13 pages, 619911 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 80 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 276 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
+ 90 words of extra memory for PDF output out of 10000 (max. 10000000)
 
