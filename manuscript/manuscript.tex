@@ -26,44 +26,37 @@
 \maketitle
 
 \begin{abstract}
-    In recent years, the increasing severity of weather disasters like hurricanes, wildfires, and hail storms and 
-    their impact on homeowners and their finances. It explores how the frequency and severity of these catastrophes influence property 
-    insurance prices. Using statistical analysis and data from reliable sources such as the Insurance Information Institute and Aon's 
-    2023 Weather, Climate, and Catastrophe Insight Report, the study aims to provide practical insights. These insights aim to inform 
-    both insurance industry practices and public policy decisions, focusing on improving resilience to such catastrophes and easing 
-    the financial burden on homeowners.
+    In recent years, with frequency and severity of weather catastrophes both increasing, it has been shown to make a significant impact 
+    on homeowners as well as making a financial burden. We will be exploring how the frequency and severity of these catastrophes 
+    influence property insurance prices through statistical analysis and data from reliable sources, such as the Insurance Information 
+    Institute and Aon's 2023 Weather, Climate, and Catastrophe Insight Report. The objective of this study aims to provide practical 
+    insights to inform both insurance industry practices and public policy decisions, in addition to focusing on improving resilience 
+    to such catastrophes and easing the financial burden on homeowners.
 \end{abstract}
 
 
 \section{Introduction}
 \label{sec:intro}
-As the frequency and severity of weather catastrophe increased in recent years, it has been shown to pose threats to homeowners' 
-safety and finance as well. The study explores the rising frequency and severity of recent weather disasters, threatening homeowners' 
-safety and finances. It investigates their impact on property insurance pricing, emphasizing the catastrophic consequences for 
-homeowners and insurers. Managing insurance premiums, deductibles, and coverage limitations becomes challenging for homeowners, 
-while insurers face heightened financial risks.
+As the frequency and severity of weather catastrophe increase, it is shown to pose threats to homeowners' safety and finance.
+It investigates their impact on property insurance pricing, emphasizing the catastrophic consequences for homeowners and insurers. 
+Managing insurance premiums, deductibles, and coverage limitations becomes challenging for homeowners, while insurers face massive 
+financial risks.
 
-Unlike prior research \cite{hurricaneeco}, our study delves deeper into the dynamics of frequency and severity in property insurance 
-pricing, seeking effective ways to alleviate the financial burden during major disasters. Drawing data from reliable sources—such as 
+Unlike prior research \cite{hurricaneeco}, our study dives deeper into the dynamics of frequency and severity in property insurance 
+pricing, seeking effective ways to alleviate the financial burden during major disasters. Drawing data from reliable sources,
 the Insurance Information Agency, National Insurance Centers for Environmental Information, and Aon's 2023 Weather, Climate, and 
-Disaster Investigation Report—we employ statistical analysis and data science techniques. The objective is to enhance homeowner 
-well-being and ensure stability in the property insurance market amidst increasing weather-related risks.
+Disaster Investigation Report — where we will use statistical analysis and data science techniques. The objective is to enhance 
+the well-being of homeowners and ensure the stability in the property insurance market against the increasing weather-related risks.
 
-
-The rest of the paper is organized as follows.
-The data will be presented in Section~\ref{sec:data}.
-The methods are described in Section~\ref{sec:meth}.
-The results are reported in Section~\ref{sec:resu}.
-A discussion concludes in Section~\ref{sec:disc}.
 
 
 \section{Data}
 \label{sec:data}
-In order to understand the impact of weather catastrophe on property insurance pricing, we will first look at a dataset of 
-billion-dollar disasters. This dataset contains important information about the frequency, financial cost, and some other parameters. 
-Our data sources include the National Centers for Environmental Information (NCEI)\cite{ncei}, the Insurance Information Institute 
-(III)\cite{iii}, Aon\cite{aon} and the National Association of Insurance Commissioners (NAIC)\cite{naic}, which are all known for their 
-reliability in documenting catastrophic events and their associated economic and insured losses.
+In order to understand the impact of weather catastrophe on property insurance pricing, we will first look at a dataset that 
+contains important information about the frequency, financial cost, and some other parameters. Our data sources are drawn from 
+National Centers for Environmental Information (NCEI)\cite{ncei}, the Insurance Information Institute (III)\cite{iii}, Aon\cite{aon} 
+and the National Association of Insurance Commissioners (NAIC)\cite{naic}, which are all well known for their reliability in 
+documenting catastrophic events and their associated economic and insured losses.
 
 These data sources are all sourced from leading insurance analytics firms and research organizations. They provide an important foundation and 
 context for assessing the relationship between extreme weather events and rising property insurance costs. Here is a little background
@@ -176,9 +169,9 @@ from 2013-2022. Table \ref{tab:insured_prop_losses} presents both the nominal lo
 \end{table}    
   
 
-The figure \ref{fig:disaster_threats} shows the cumulative billion-dollar disaster costs in the United States from 1980-2023 on a year-to-date basis. It 
-illustrates how annual disaster costs accumulate through the year, with key major disaster event years highlighted. The table 
-provides context on total disaster costs over time.
+The figure \ref{fig:disaster_threats} shows the cumulative billion-dollar disaster costs in the United States from 1980-2023. It 
+illustrates how annual disaster costs accumulate through the year, with highlighting the key disasters of the year. The table 
+also provides context on total disaster costs over time.
 
 \begin{figure}[ht]
     \centering
@@ -187,10 +180,8 @@ provides context on total disaster costs over time.
     \cite{naic}
 \end{figure}
 
-The figure \ref{fig:regional_disasters} shows the number of billion-dollar disaster events by type in the United States from 1980-2023. It breaks down event counts 
-for droughts, flooding, freezes, severe storms, tropical cyclones, wildfires, and winter storms. The total disaster cost is also shown 
-accumulated across years. The chart gives overview insight into disaster frequency and cost by peril.
-
+The figure \ref{fig:regional_disasters} shows the number of billion-dollar disaster events by specific perils in the United States 
+from 1980-2023. 
 
 \begin{figure}[ht]
     \centering
@@ -199,9 +190,10 @@ accumulated across years. The chart gives overview insight into disaster frequen
     \cite{naic}
 \end{figure}
 
-The chart \ref{fig:10economic_loss} presents the ten most expensive global insured catastrophe losses from 1900 to 2022, highlighting 
-the rising risks and costs that property insurers are facing. The chart highlights the insurance industry's climate-change costs, which 
-require immediate adjustments to rates, coverages, and risk-mitigation efforts, with a focus on vulnerable coastal and island regions.
+The chart \ref{fig:10economic_loss} showing the top ten most expensive cyclone economic losses from 1900 to 2022, highlighting 
+the rising risks and costs that property insurers are facing. Specifically, the chart focuses on vulnerable coastal and island regions,
+which are known to be cyclone, hurricane, and flooding hazardous zones. The chart \ref{fig:10global_loss} presents the top ten most expensive global insured catastrophe losses from 1900 to 2022, highlighting 
+the rising risks and costs that property insurers are facing. 
 
 \begin{figure}[ht]
     \centering
@@ -209,12 +201,6 @@ require immediate adjustments to rates, coverages, and risk-mitigation efforts, 
     \label{fig:10economic_loss}
     \cite{aon}
 \end{figure}
-
-
-The chart \ref{fig:10global_loss} showing the top ten economically destructive tropical cyclones worldwide from 1900 to 2022 
-highlights the increasing risks posed by hurricanes in a changing climate. In particular, the United States has been hit by all ten 
-of the costliest storms since 2000, suggesting a concerning trend of recurring severe hurricane seasons for coastal regions. 
-
 
 \begin{figure}[ht]
     \centering
@@ -232,36 +218,29 @@ several key equations that will act as a general basis to guide our analysis:
 
 \begin{equation}
     \label{eq:freq}
-    \text{Frequency} = \frac{\text{Number of Loss Events}}{\text{Exposure Units}}
+    \text{Frequency} = \frac{\text{Number of Loss Events}}{\text{Exposure}}
 \end{equation}
 
-The frequency equation \ref{eq:freq} calculates the frequency of loss events by dividing the number of loss events by exposure units.
+The frequency equation \ref{eq:freq} calculates the frequency by dividing the number of loss events by the exposure.
 
 \begin{equation}
     \label{eq:sev}
-    \text{Severity} = \frac{\text{Total Loss Amount}}{\text{Number of Loss Events}}
+    \text{Severity} = \frac{\text{Total Loss}}{\text{Number of Loss Events}}
 \end{equation}
 
-The severity equation \ref{eq:sev} is determined by dividing the total loss amount by the number of loss events.
+The severity equation \ref{eq:sev} calculates the severity by dividing the total loss by the number of loss events.
 
-\begin{equation}
-    \label{eq:losscost}
-    \text{Loss Cost} = \text{Frequency} \times \text{Exposure Units}
-\end{equation}
-
-The loss count equation \ref{eq:losscost} is the product of frequency and exposure units, providing insights into the overall loss count due to catastrophic events.
 
 \begin{equation}
     \label{eq:premium}
-    \text{Premium} = \lambda \cdot \text{Severity} \cdot \text{Exposure Units}
+    \text{Premium} = \lambda \cdot \text{Severity} \cdot \text{Exposure}
 \end{equation}
 
-The premium equation \ref{eq:premium} calculates the estimated premium based on the frequency, severity, and exposure units, which 
-shows the financial consequences for both homeowners and insurance companies.
+The premium equation \ref{eq:premium} calculates the estimated premium based on the frequency, severity, and exposure. This should be noted
+to be significant for both homeowners and insurance companies as it displays the financial consequences.
 
-By understanding these fundamental equations, we hope to gain a thorough understanding of the relationship between weather-related disasters 
-and property insurance pricing. Like mentioned earlier, these equations will serve as a basis for our data analysis, allowing us to 
-effectively assess the impact of catastrophic events on property insurance while also assisting us in meeting our research objectives.
+Through these key equations, we hope to gain a thorough understanding between the relationship of weather-related disasters 
+and property insurance pricing. 
 
 This comprehensive dataset, supported by data from the Insurance Information Institute \cite{iii}, serves as the foundation 
 for our research, while incorporating other data for support from other sources as well. The various chronological segments, as well 
