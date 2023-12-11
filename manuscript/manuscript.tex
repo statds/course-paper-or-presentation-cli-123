@@ -26,34 +26,28 @@
 \maketitle
 
 \begin{abstract}
-Weather catastrophes, like hurricanes, wildfires, hail storms, etc., have become more common and severe in recent years, which poses 
-significant risks to homeowners and has significant financial consequences. The purpose of this research paper is to look into the 
-impact of weather catastrophe frequency and severity on property insurance policy prices, and also, to identify strategies for easing 
-the financial burden on homeowners. This research combines statistical analysis and data science techniques, drawing on data from 
-reliable sources such as the Insurance Information Institute and Aon's 2023 Weather, Climate, and Catastrophe Insight Report. The 
-research aims to provide helpful insights into the relationships between the frequency and severity of weather catastrophes and 
-property insurance pricing in order to inform insurance industry practices and public policy decisions to improve resilience to 
-catastrophes.
+    In recent years, the increasing severity of weather disasters like hurricanes, wildfires, and hail storms and 
+    their impact on homeowners and their finances. It explores how the frequency and severity of these catastrophes influence property 
+    insurance prices. Using statistical analysis and data from reliable sources such as the Insurance Information Institute and Aon's 
+    2023 Weather, Climate, and Catastrophe Insight Report, the study aims to provide practical insights. These insights aim to inform 
+    both insurance industry practices and public policy decisions, focusing on improving resilience to such catastrophes and easing 
+    the financial burden on homeowners.
 \end{abstract}
 
 
 \section{Introduction}
 \label{sec:intro}
-The frequency and severity of weather disasters have increased in recent years, posing threats to homeowners' safety and finances. 
-This study investigates the relationship between these disasters and property insurance pricing. As climate disasters become more 
-severe, homeowners face increased risks, necessitating a closer look at their ability to protect assets through insurance.
+As the frequency and severity of weather catastrophe increased in recent years, it has been shown to pose threats to homeowners' 
+safety and finance as well. The study explores the rising frequency and severity of recent weather disasters, threatening homeowners' 
+safety and finances. It investigates their impact on property insurance pricing, emphasizing the catastrophic consequences for 
+homeowners and insurers. Managing insurance premiums, deductibles, and coverage limitations becomes challenging for homeowners, 
+while insurers face heightened financial risks.
 
-The study emphasizes the catastrophic impact of natural disasters on homeowners and the insurance industry. The financial burden 
-falls on homeowners, who must manage insurance premiums, deductibles, and coverage limitations. Likewise, insurance companies face 
-increased risks, threatening their financial stability.
-
-While previous research has touched on weather risks and insurance prices, our study delves deeper into the dynamics of frequency and 
-severity in property insurance pricing, based on valuable insights \cite{hurricaneeco}. We want to find effective ways to reduce the financial burden 
-on homeowners during major disasters.
-
-We draw data from reliable sources such as the Insurance Information Agency, National Insurance Centers for Environmental Information, 
-and Aon's 2023 Weather, Climate, and Disaster Investigation Report using statistical analysis and data science. This study aims to 
-improve homeowner well-being and the stability of the property insurance market in the face of rising weather-related risks.
+Unlike prior research \cite{hurricaneeco}, our study delves deeper into the dynamics of frequency and severity in property insurance 
+pricing, seeking effective ways to alleviate the financial burden during major disasters. Drawing data from reliable sources—such as 
+the Insurance Information Agency, National Insurance Centers for Environmental Information, and Aon's 2023 Weather, Climate, and 
+Disaster Investigation Report—we employ statistical analysis and data science techniques. The objective is to enhance homeowner 
+well-being and ensure stability in the property insurance market amidst increasing weather-related risks.
 
 
 The rest of the paper is organized as follows.
@@ -65,15 +59,15 @@ A discussion concludes in Section~\ref{sec:disc}.
 
 \section{Data}
 \label{sec:data}
-To comprehend the impact of weather-related catastrophic events on property insurance pricing, we will begin by examining a dataset of 
-billion-dollar disasters. This dataset provides crucial information on event frequency, financial cost, and other key parameters. Our 
-data sources include the National Centers for Environmental Information (NCEI)\cite{ncei}, the Insurance Information Institute 
-(III)\cite{iii}, Aon\cite{aon} and the National Association of Insurance Commissioners (NAIC)\cite{naic}, all are recognized for their 
+In order to understand the impact of weather catastrophe on property insurance pricing, we will first look at a dataset of 
+billion-dollar disasters. This dataset contains important information about the frequency, financial cost, and some other parameters. 
+Our data sources include the National Centers for Environmental Information (NCEI)\cite{ncei}, the Insurance Information Institute 
+(III)\cite{iii}, Aon\cite{aon} and the National Association of Insurance Commissioners (NAIC)\cite{naic}, which are all known for their 
 reliability in documenting catastrophic events and their associated economic and insured losses.
 
-These data sources, sourced from leading insurance analytics firms and research organizations, provide an important foundation and 
-context for assessing the relationship between intensifying extreme weather events and rising property insurance costs. Using decades 
-of specialized knowledge to track climate impacts and pricing trends across vulnerable geographies.
+These data sources are all sourced from leading insurance analytics firms and research organizations. They provide an important foundation and 
+context for assessing the relationship between extreme weather events and rising property insurance costs. Here is a little background
+for the sources of the dataset:
 
 Aon is at the forefront of risk analysis in the insurance industry, with dedicated catastrophe model development and annual global 
 climate reports tracking disaster losses. This establishes Aon as an unrivaled resource for linking increasing weather perils to 
@@ -91,10 +85,9 @@ worsening climate factors such as hurricanes, flooding, and wildfires through re
 calls, and cross-collaborations.
 
 Our primary dataset, obtained from the National Centers for Environmental Information (NCEI)\cite{ncei}, spans between the years from 
-1980 to 2023. We have organized the data into various temporal segments to facilitate analysis. Table \ref{tab:bil_dol_disasters} 
-summarizes key statistics from this dataset, which provides insights into the frequency of catastrophic events, total financial cost, and 
-associated fatalities. These temporal segments, ranging from the 1980s to the present day, enable us to assess trends over time and 
-help to identify potential patterns.
+1980 to 2023. We have organized the data into various temporal segments to facilitate the analysis. Table \ref{tab:bil_dol_disasters} 
+summarizes key statistics from this dataset, which provides insights into the frequency of the catastrophic events, total financial cost, and 
+associated fatalities. These temporal segments allows us to assess trends over time and help to identify potential patterns.
 
 \begin{table}[h]
     \caption{NEIC: Billion-Dollar Disasters Data}
@@ -119,10 +112,10 @@ help to identify potential patterns.
 
 
 
-To further examine the financial implications of natural disasters, we turn to the Insurance Information Institute (III)\cite{iii}. 
-Table \ref{tab:natural_cat_losses} for the year 2022 provides a breakdown of catastrophic events by peril, including data on the 
-number of events, fatalities, economic losses, and insured losses. This granular information is essential for understanding the 
-varying impacts of different types of natural catastrophes and their associated costs.
+To further examine the financial implications of natural disasters, we will turn to the Insurance Information Institute (III)\cite{iii}. 
+Table \ref{tab:natural_cat_losses} provides a breakdown of catastrophic events by specific perils for the year 2022, including data on the 
+number of events, fatalities, economic losses, and insured losses. Through these informations, we will gain a better understanding of the 
+varying impacts of different types of weather catastrophes and the associated costs.
 
 \begin{table}[h]
     \caption{Natural Catastrophe Losses in the United States by Peril, 2022 (in \$ millions)}
@@ -143,9 +136,9 @@ varying impacts of different types of natural catastrophes and their associated 
     \cite{iii}
 \end{table}
 
-This chart \ref{fig:disaster_freq} shows the percentage frequency of years from 1980-2023 that experienced different numbers of billion-dollar disasters. It 
-looks at years with 1 or more, up to 5 or more billion-dollar disaster events. The chart helps to characterize the concentration and 
-frequency of multiple disasters in a single year.
+The chart \ref{fig:disaster_freq} shows the percentage frequency, of the years from 1980-2023, that experienced different numbers of 
+billion-dollar disasters. It examines at years with 1 or more, up to 5 or more billion-dollar disaster events. The chart helps to 
+characterize the concentration and frequency of multiple disasters in a single year.
 
 \begin{figure}[ht]
     \centering
@@ -154,9 +147,9 @@ frequency of multiple disasters in a single year.
     \cite{ncei}
 \end{figure}
 
-The Insurance Information Institute (III) \cite{iii} also supplies data on insured property losses in the United States for the years 
-2013-2022. Table \ref{tab:insured_prop_losses} presents both the nominal loss values when the events occurred and their equivalent 
-values in 2022 dollars. Analyzing this information will allow us to assess how insured losses have evolved over the past decade.
+The Insurance Information Institute (III) \cite{iii} also provides data on insured property losses in the United States for the years 
+from 2013-2022. Table \ref{tab:insured_prop_losses} presents both the nominal loss values when the events occurred and their equivalent 
+(inflated) values in 2022 dollars. Analyzing this information will allow us to assess how insured losses have evolved over the past decade.
 
 
 \begin{table}[h]
@@ -183,7 +176,7 @@ values in 2022 dollars. Analyzing this information will allow us to assess how i
 \end{table}    
   
 
-This figure \ref{fig:disaster_threats} shows the cumulative billion-dollar disaster costs in the United States from 1980-2023 on a year-to-date basis. It 
+The figure \ref{fig:disaster_threats} shows the cumulative billion-dollar disaster costs in the United States from 1980-2023 on a year-to-date basis. It 
 illustrates how annual disaster costs accumulate through the year, with key major disaster event years highlighted. The table 
 provides context on total disaster costs over time.
 
@@ -194,7 +187,7 @@ provides context on total disaster costs over time.
     \cite{naic}
 \end{figure}
 
-This figure \ref{fig:regional_disasters} shows the number of billion-dollar disaster events by type in the United States from 1980-2023. It breaks down event counts 
+The figure \ref{fig:regional_disasters} shows the number of billion-dollar disaster events by type in the United States from 1980-2023. It breaks down event counts 
 for droughts, flooding, freezes, severe storms, tropical cyclones, wildfires, and winter storms. The total disaster cost is also shown 
 accumulated across years. The chart gives overview insight into disaster frequency and cost by peril.
 
@@ -206,15 +199,9 @@ accumulated across years. The chart gives overview insight into disaster frequen
     \cite{naic}
 \end{figure}
 
-As evidenced by this chart \ref{fig:10economic_loss} of the ten most expensive global insured catastrophe losses from 1900 to 2022, 
-the rising frequency and severity of extreme weather events in the last two decades has increased the risks and costs for property 
-insurers. Hurricanes that have ravaged North America and the Caribbean in recent years have caused almost all of the disasters, with 
-seven of the ten occurring in the last 15 years. The confluence of billion-dollar hurricane disasters, as well as rapidly rising 
-nominal and inflation-adjusted insured losses, highlight the insurance industry's mounting climate-change costs. With three of the 
-four largest loss events occurring in 2021-2022 alone, property insurers face escalating climate threats and exposures that 
-necessitate significant adjustments to rates, coverages, and risk mitigation efforts in especially vulnerable coastal and island 
-regions. Addressing these challenges through preventative resilience initiatives and innovative insurance solutions will be critical 
-to enabling the industry to cover the property landscape of the future in a viable and sustainable manner.
+The chart \ref{fig:10economic_loss} presents the ten most expensive global insured catastrophe losses from 1900 to 2022, highlighting 
+the rising risks and costs that property insurers are facing. The chart highlights the insurance industry's climate-change costs, which 
+require immediate adjustments to rates, coverages, and risk-mitigation efforts, with a focus on vulnerable coastal and island regions.
 
 \begin{figure}[ht]
     \centering
@@ -224,15 +211,10 @@ to enabling the industry to cover the property landscape of the future in a viab
 \end{figure}
 
 
-This chart \ref{fig:10global_loss} of the top ten most economically destructive tropical cyclones in the world from 1900 to 2022 emphasizes the growing risks 
-that hurricanes pose in a changing climate. With the United States being hit by all ten of the costliest storms since 2000, the trend 
-toward repeated devastating hurricane seasons is clear and concerning for coastal communities. The clustering of five massive 
-back-to-back hurricane events in the last six years, putting unprecedented strain on the US economy, lends credence to modeling that 
-suggests tropical storms are becoming more destructive. Hurricane vulnerability and recovery costs will only increase as sea levels 
-rise and waters warm, exposing more property than ever before.  This necessitates immediate action across the public and private 
-sectors to strengthen pre-disaster mitigation and post-disaster resilience if the already record-breaking cost of hurricanes is not 
-to skyrocket in the future. To address this escalating climate threat, innovative policy, infrastructure, community design, and 
-financing tools must be combined.
+The chart \ref{fig:10global_loss} showing the top ten economically destructive tropical cyclones worldwide from 1900 to 2022 
+highlights the increasing risks posed by hurricanes in a changing climate. In particular, the United States has been hit by all ten 
+of the costliest storms since 2000, suggesting a concerning trend of recurring severe hurricane seasons for coastal regions. 
+
 
 \begin{figure}[ht]
     \centering
@@ -246,7 +228,7 @@ financing tools must be combined.
 \subsection{Key Equations}
 
 To better understand the relationships between weather catastrophes, property insurance, and financial impact, we will first introduce 
-several key equations that will act as a basis to guide our analysis:
+several key equations that will act as a general basis to guide our analysis:
 
 \begin{equation}
     \label{eq:freq}
@@ -274,17 +256,17 @@ The loss count equation \ref{eq:losscost} is the product of frequency and exposu
     \text{Premium} = \lambda \cdot \text{Severity} \cdot \text{Exposure Units}
 \end{equation}
 
-The premium equation \ref{eq:premium} calculates the estimated premium based on the frequency, severity, and exposure units. This 
-reflects the financial implications for homeowners and insurers.
+The premium equation \ref{eq:premium} calculates the estimated premium based on the frequency, severity, and exposure units, which 
+shows the financial consequences for both homeowners and insurance companies.
 
-We hope to gain a thorough understanding of the complex relationship between weather-related disasters and property insurance pricing 
-by understanding these fundamental equations. These equations will serve as a basis for our data analysis, allowing us to effectively 
-assess the impact of catastrophic events on property insurance while also assisting us in meeting our research objectives.
+By understanding these fundamental equations, we hope to gain a thorough understanding of the relationship between weather-related disasters 
+and property insurance pricing. Like mentioned earlier, these equations will serve as a basis for our data analysis, allowing us to 
+effectively assess the impact of catastrophic events on property insurance while also assisting us in meeting our research objectives.
 
-This comprehensive dataset, supported by granular data from the Insurance Information Institute \cite{iii}, serves as the foundation 
-for our research. The various chronological segments, as well as the key equations, provide us with the resources that we need to 
-delve deeper into the impact of weather-related catastrophes on property insurance, allowing us to effectively address our research 
-objectives. 
+This comprehensive dataset, supported by data from the Insurance Information Institute \cite{iii}, serves as the foundation 
+for our research, while incorporating other data for support from other sources as well. The various chronological segments, as well 
+as the key equations, provide us with the resources that we need to delve deeper into the impact of weather-related catastrophes on 
+property insurance, allowing us to effectively address our research objectives. 
 
 
 
@@ -308,29 +290,25 @@ for state-year:
 \end{itemize}
 
 
-In order to isolate the relationships between disaster activity and average homeowners insurance premiums over time, we used 
-panel regression techniques with state and year-fixed effects. To reduce omitted variable bias, models specifically control for 
-time-invariant differences across states (via state dummies) as well as national trends (via year indicators). The premium measure is 
-the dependent variable, with the key independent variables being disaster counts and cost totals.
+In order to isolate the relationships between disaster events and average homeowners insurance premiums over time, we will use 
+panel regression techniques with state and year-fixed effects as the key variables or factors. To reduce omitted variable bias, 
+models specifically control for time-invariant differences across states (the state dummies) as well as national trends (the year 
+indicators). The premium measure acts as the dependent variable, with the key independent variables being disaster counts and 
+cost totals.
 
-These disaster measures capture state-specific exposure each year, providing granular, longitudinal pricing connectivity. Taking logs 
+Each year, these disaster measures capture state-specific exposure, which allows for more precise pricing connectivity over time. Taking logs 
 accounts for skewness and simplifies elasticity interpretation. We anticipate that worsening loss shocks will have a direct impact on 
-insurers' underwriting decisions, resulting in measurable premium impacts. Differential sensitivity testing is possible by segmenting 
-by peril type.
-
-Given the skewed distribution of disaster cost variables, logs are used. Fixed effects by state and year account for time-dependent 
-differences between states and national trends. We begin by looking at the impact of aggregated disaster activity. The models are then 
-estimated by interacting the disaster measures with peril indicators in order to compare the sensitivity across event types. Quantile 
-regression was also used to determine whether or not effects differ across the premium distribution.
+insurers' underwriting decisions, resulting in measurable premium impacts. By measuring different peril types, differential sensitivity testing 
+may be possible through segmentation.
 
 
 \section{Results}
 \label{sec:resu}
 \subsection{Summary Statistics}
-Table 4 \ref{tab:summary} presents summary statistics for the premium and disaster data. The disaster measures show substantial variability, 
-highlighting the irregular nature of extremes. Hurricane and flooding perils account for the largest share of overall cost and 
-insured losses. The regression results show that increasing natural disaster activity plays a statistically significant role in 
-driving increases in homeowners insurance premiums across risk-exposed states. According to the elasticity estimates, premiums grow 
+Table \ref{tab:summary} presents summary statistics for the premium and disaster data. The disaster measures show substantial variability, 
+highlighting the irregular nature of extremes. Specifically, hurricane and flooding perils account for the largest proportion of the overall cost and 
+insured losses. The regression results show that increasing natural disaster events plays a statistically significant role in 
+driving increases in homeowners insurance premiums across risk-exposed states (e.g. coastal ones). According to the elasticity estimates, premiums grow 
 at a higher percentage rate than disaster costs.
 
 \begin{table}[h]
@@ -351,10 +329,10 @@ at a higher percentage rate than disaster costs.
 \end{table}
 
 \subsection{Regression Results}
-Table 5 \ref{tab:reg_results} presents results from the panel regressions. The number of disasters and total cost are significantly 
+Table \ref{tab:reg_results} presents results from the panel regressions. The number of disasters and total cost are significantly 
 associated with higher premiums based on the log-log specification. A 10\% increase in disasters corresponds to a 14.7\% rise in 
 premiums. Meanwhile, a 10\% rise in total damage leads to a 23.1\% premium increase. In other words, 10\% increase in total catastrophe 
-damages incurred in a state-year, for example, corresponds to a 23.1\% increase in annual average premiums. This emphasizes the 
+damages incurred in a state-year corresponds to a 23.1\% increase in annual average premiums. This emphasizes the 
 exponentially rising underwriting risks and loss adjustments made by insurers based on compounding extreme event data.
 
 
@@ -385,14 +363,12 @@ exponentially rising underwriting risks and loss adjustments made by insurers ba
   \end{table}
   
 
-  The results presented in Table 6 \ref{tab:reg_peril} indicate that hurricane and flood disasters have the most 
-  substantial impacts on insurance premiums. Specifically, a 10\% increase in hurricane or flood Damages are associated with 
+  The results presented in Table \ref{tab:reg_peril} indicate that hurricane and flood disasters, mentioned earlier \ref{tab:summary}, 
+  have the most substantial impacts on insurance premiums. Specifically, a 10\% increase in hurricane or flood damages associates with 
   approximately a 0.01\% increase in premiums. Results also show that hurricanes and flooding disasters have a disproportionate 
-  impact in comparison to other hazards. Climate change appears to be worsening exposure along the coast and in low-lying areas. 
-  Additional findings indicate that winter storms may necessitate price changes in some states. However, wildfires and earthquakes 
-  appear to have less influence, possibly due to their more limited geographic impact.
+  impact in comparison to other hazards. Additional findings indicate that winter storms may necessitate price changes in some states. 
+  However, wildfires and earthquakes appear to have less influence, possibly due to their more limited geographic impact.
 
-  
 
 
 \begin{table}[h]
@@ -420,26 +396,26 @@ exponentially rising underwriting risks and loss adjustments made by insurers ba
     \cite{statista, ncei}
   \end{table}
   
-  These panel regressions provide empirical evidence that worsening extremes are increasing premiums in line with rising expected loss 
-  trends. Strategic risk-reduction policies will be critical in the future.
+  These panel regressions all provide empirical evidence that worsening extremes are increasing premiums in line with rising expected loss 
+  trends. Strategic risk-reduction policies will be important in the future.
 
 
 
 \section{Discussion}
 \label{sec:disc}
 
-The study found a statistically significant link between extreme weather events and homeowner insurance pricing. According to the 
+The study found a statistically significant relationship between extreme weather events and homeowner insurance pricing. According to the 
 results, more frequent and severe events are associated with higher premiums, especially for hurricanes and flooding perils. This is 
 consistent with previous findings on the impact of catastrophic losses on insurance markets \cite{aon}.
 
-However, there are limitations to the data collected. Analytics may benefit from having more granular, address-level premium data to 
+However, there are limitations to the data collected. Analytics may benefit from having more precise premium data to 
 better pinpoint local hazards. In addition, the model fails to take account of changes in exposures and vulnerabilities over time as risk 
 factors. Further studies should be conducted to mitigate the influence of climate risk data change from detailed measures, which 
 increases risks.
 
-Still, these results demonstrate an interrelation between catastrophic incidents and rising property insurance premiums - two trends 
-with many causes and effects that overlap significantly. As climate change intensifies weather extremes, homeowners could face 
-financial strain - potentially undermining the stability of insurance markets and leading to economic instability for policy 
+Still, these results demonstrate an interrelation between weather catastrophe incidents and rising property insurance premiums - which are 
+two trends with many causes and effects that overlap significantly. As climate change intensifies weather extremes, homeowners could 
+face financial strain - potentially undermining the stability of insurance markets and leading into economic instability for policy 
 interventions like subsidized insurance policies\cite{iii}, resilience incentives, or residential investments\cite{kousky} that 
 might provide relief. Climate risk modeling and risk-based pricing will become even more crucial to insurers as a means of providing 
 long-term financial protection from rising extremes.
